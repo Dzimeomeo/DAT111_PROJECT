@@ -1,0 +1,16 @@
+# 1. Kiểm tra bạn đang ở nhánh nào
+git branch
+
+# 2. Cập nhật thông tin nhánh mới từ GitHub (fetch)
+git fetch origin
+
+# 3. Nếu muốn cập nhật code mới của nhánh main
+git pull origin main
+
+# 4. Kiểm tra tình trạng file của bạn
+git status
+
+# 5. Làm việc và commit bình thường
+git add .
+git commit -m "Cập nhật dữ liệu dataset"
+git push origin <ten_nhanh_cua_ban>
