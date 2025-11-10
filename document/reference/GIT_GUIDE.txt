@@ -4,8 +4,8 @@ git branch
 # 2. Cập nhật thông tin nhánh mới từ GitHub (fetch)
 git fetch origin
 
-# 3. Nếu muốn cập nhật code mới của nhánh main
-git pull origin main
+# 3. Truy cập nhánh cá nhân
+git checkout <<ten_nhanh>>
 
 # 4. Kiểm tra tình trạng file của bạn
 git status
