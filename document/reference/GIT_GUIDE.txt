@@ -14,3 +14,6 @@ git status
 git add .
 git commit -m "Cập nhật dữ liệu dataset"
 git push origin <ten_nhanh_cua_ban>
+
+#6 lấy dữ liệu mới từ main 
+-> git merge main
