@@ -1,706 +1,706 @@
-Student_ID,Age,Gender,Academic_Level,Country,Avg_Daily_Usage_Hours,Most_Used_Platform,Affects_Academic_Performance,Sleep_Hours_Per_Night,Mental_Health_Score,Relationship_Status,Conflicts_Over_Social_Media,Addicted_Score
-1,19,Female,Undergraduate,Bangladesh,5.2,Instagram,Yes,6.5,6,In Relationship,3,8
-2,22,Male,Graduate,India,2.1,Twitter,No,7.5,8,Single,0,3
-3,20,Female,Undergraduate,USA,6.0,TikTok,Yes,5.0,5,Complicated,4,9
-4,18,Male,High School,UK,3.0,YouTube,No,7.0,7,Single,1,4
-5,21,Male,Graduate,Canada,4.5,Facebook,Yes,6.0,6,In Relationship,2,7
-6,19,Female,Undergraduate,Australia,7.2,Instagram,Yes,4.5,4,Complicated,5,9
-7,23,Male,Graduate,Germany,1.5,LinkedIn,No,8.0,9,Single,0,2
-8,20,Female,Undergraduate,Brazil,5.8,Snapchat,Yes,6.0,6,In Relationship,2,8
-9,18,Male,High School,Japan,4.0,TikTok,No,6.5,7,Single,1,5
-10,21,Female,Graduate,South Korea,3.3,Instagram,No,7.0,7,In Relationship,1,4
-11,19,Male,Undergraduate,France,4.8,Snapchat,Yes,6.2,5,Complicated,3,7
-12,20,Female,Undergraduate,Spain,5.5,TikTok,Yes,5.8,6,In Relationship,2,8
-13,22,Male,Graduate,Italy,2.8,LinkedIn,No,7.2,8,Single,1,4
-14,18,Female,High School,Mexico,6.5,Instagram,Yes,5.5,5,Single,4,9
-15,21,Male,Undergraduate,Russia,3.7,YouTube,No,6.8,7,In Relationship,2,5
-16,20,Female,Undergraduate,China,4.2,TikTok,Yes,6.0,6,Complicated,3,7
-17,24,Male,Graduate,Sweden,2.0,LinkedIn,No,7.8,8,Single,0,3
-18,19,Female,High School,Norway,5.0,Instagram,Yes,5.7,5,In Relationship,3,8
-19,21,Male,Undergraduate,Denmark,3.5,Facebook,No,6.7,7,Single,1,5
-20,20,Female,Undergraduate,Netherlands,4.7,Snapchat,Yes,5.9,6,Complicated,3,7
-21,18,Male,High School,Belgium,5.3,TikTok,Yes,5.5,5,Single,4,8
-22,23,Female,Graduate,Switzerland,2.5,LinkedIn,No,7.3,8,In Relationship,1,4
-23,19,Male,Undergraduate,Austria,4.9,Instagram,Yes,5.8,6,Complicated,3,7
-24,20,Female,Undergraduate,Portugal,5.7,TikTok,Yes,5.4,5,Single,4,8
-25,22,Male,Graduate,Greece,3.2,Facebook,No,6.9,7,In Relationship,2,5
-26,19,Female,High School,Ireland,6.1,Instagram,Yes,5.2,5,Complicated,4,9
-27,21,Male,Undergraduate,New Zealand,3.8,YouTube,No,6.6,7,Single,1,5
-28,20,Female,Undergraduate,Singapore,4.4,TikTok,Yes,5.9,6,In Relationship,3,7
-29,24,Male,Graduate,Malaysia,2.2,LinkedIn,No,7.4,8,Single,0,3
-30,19,Female,High School,Thailand,5.9,Instagram,Yes,5.3,5,Complicated,4,8
-31,21,Male,Undergraduate,Vietnam,3.6,Facebook,No,6.7,7,Single,1,5
-32,20,Female,Undergraduate,Philippines,4.8,Snapchat,Yes,5.7,6,In Relationship,3,7
-33,18,Male,High School,Indonesia,5.4,TikTok,Yes,5.4,5,Complicated,4,8
-34,23,Female,Graduate,Taiwan,2.6,LinkedIn,No,7.2,8,Single,1,4
-35,19,Male,Undergraduate,Hong Kong,4.7,Instagram,Yes,5.8,6,In Relationship,3,7
-36,20,Female,Undergraduate,Turkey,5.6,TikTok,Yes,5.5,5,Complicated,4,8
-37,22,Male,Graduate,Israel,3.1,Facebook,No,6.8,7,Single,1,5
-38,19,Female,High School,UAE,6.2,Instagram,Yes,5.1,5,In Relationship,4,9
-39,21,Male,Undergraduate,Egypt,3.9,YouTube,No,6.5,7,Complicated,2,6
-40,20,Female,Undergraduate,Morocco,4.5,TikTok,Yes,5.8,6,Single,3,7
-41,24,Male,Graduate,South Africa,2.3,LinkedIn,No,7.3,8,In Relationship,1,4
-42,19,Female,High School,Nigeria,5.8,Instagram,Yes,5.4,5,Complicated,4,8
-43,21,Male,Undergraduate,Kenya,3.7,Facebook,No,6.6,7,Single,2,5
-44,20,Female,Undergraduate,Ghana,4.6,Snapchat,Yes,5.7,6,In Relationship,3,7
-45,18,Male,High School,Argentina,5.5,TikTok,Yes,5.3,5,Single,4,8
-46,23,Female,Graduate,Chile,2.7,LinkedIn,No,7.1,8,Complicated,1,4
-47,19,Male,Undergraduate,Colombia,4.8,Instagram,Yes,5.9,6,In Relationship,3,7
-48,20,Female,Undergraduate,Peru,5.5,TikTok,Yes,5.6,5,Single,4,8
-49,22,Male,Graduate,Venezuela,3.3,Facebook,No,6.7,7,In Relationship,2,5
-50,19,Female,High School,Ecuador,6.3,Instagram,Yes,5.2,5,Complicated,4,9
-51,21,Male,Undergraduate,Uruguay,3.8,YouTube,No,6.4,7,Single,2,6
-52,20,Female,Undergraduate,Paraguay,4.7,TikTok,Yes,5.8,6,In Relationship,3,7
-53,24,Male,Graduate,Bolivia,2.4,LinkedIn,No,7.2,8,Complicated,1,4
-54,19,Female,High School,Costa Rica,5.7,Instagram,Yes,5.5,5,Single,4,8
-55,21,Male,Undergraduate,Panama,3.6,Facebook,No,6.5,7,In Relationship,2,5
-56,20,Female,Undergraduate,Jamaica,4.9,Snapchat,Yes,5.6,6,Complicated,3,7
-57,18,Male,High School,Trinidad,5.6,TikTok,Yes,5.2,5,Single,4,8
-58,23,Female,Graduate,Bahamas,2.8,LinkedIn,No,7.0,8,In Relationship,1,4
-59,19,Male,Undergraduate,Iceland,4.6,Instagram,Yes,5.9,6,Complicated,3,7
-60,20,Female,Undergraduate,Finland,5.4,TikTok,Yes,5.7,5,Single,4,8
-61,22,Male,Graduate,Poland,3.1,Facebook,No,7.1,7,Single,1,5
-62,19,Female,Undergraduate,Romania,5.6,Instagram,Yes,5.6,5,In Relationship,3,8
-63,20,Male,Undergraduate,Hungary,4.2,TikTok,Yes,6.0,6,Complicated,3,7
-64,18,Female,High School,Czech Republic,6.1,Snapchat,Yes,5.2,4,Single,4,9
-65,23,Male,Graduate,Slovakia,2.3,LinkedIn,No,7.4,8,In Relationship,1,3
-66,21,Female,Undergraduate,Croatia,4.8,Instagram,Yes,5.8,6,Single,3,7
-67,20,Male,Undergraduate,Serbia,3.9,YouTube,No,6.5,7,Complicated,2,6
-68,19,Female,High School,Slovenia,5.7,TikTok,Yes,5.4,5,In Relationship,4,8
-69,22,Male,Graduate,Bulgaria,2.8,LinkedIn,No,7.2,8,Single,1,4
-70,20,Female,Undergraduate,Estonia,4.5,Instagram,Yes,5.9,6,Complicated,3,7
-71,18,Male,High School,Latvia,5.4,Snapchat,Yes,5.5,5,Single,4,8
-72,21,Female,Graduate,Lithuania,3.2,Facebook,No,6.8,7,In Relationship,2,5
-73,19,Male,Undergraduate,Ukraine,4.9,TikTok,Yes,5.7,6,Complicated,3,7
-74,20,Female,Undergraduate,Moldova,5.8,Instagram,Yes,5.3,5,Single,4,8
-75,23,Male,Graduate,Belarus,2.5,LinkedIn,No,7.3,8,In Relationship,1,4
-76,21,Female,Undergraduate,Kazakhstan,4.6,Snapchat,Yes,5.8,6,Single,3,7
-77,19,Male,High School,Uzbekistan,5.5,TikTok,Yes,5.4,5,Complicated,4,8
-78,22,Female,Graduate,Kyrgyzstan,2.9,Facebook,No,7.0,7,In Relationship,2,5
-79,20,Male,Undergraduate,Tajikistan,4.7,YouTube,Yes,5.9,6,Single,3,7
-80,18,Female,High School,Armenia,5.9,Instagram,Yes,5.2,5,Complicated,4,9
-81,21,Male,Graduate,Georgia,3.0,LinkedIn,No,7.1,8,In Relationship,1,4
-82,19,Female,Undergraduate,Azerbaijan,4.8,TikTok,Yes,5.7,6,Single,3,7
-83,20,Male,Undergraduate,Cyprus,3.8,Facebook,No,6.6,7,Complicated,2,6
-84,22,Female,Graduate,Malta,2.7,LinkedIn,No,7.2,8,In Relationship,1,4
-85,18,Male,High School,Luxembourg,5.6,Snapchat,Yes,5.3,5,Single,4,8
-86,21,Female,Undergraduate,Monaco,4.5,Instagram,Yes,5.8,6,Complicated,3,7
-87,19,Male,High School,Andorra,5.3,TikTok,Yes,5.5,5,In Relationship,4,8
-88,23,Female,Graduate,San Marino,2.6,LinkedIn,No,7.3,8,Single,1,4
-89,20,Male,Undergraduate,Vatican City,4.4,YouTube,Yes,6.0,6,Complicated,3,7
-90,18,Female,High School,Liechtenstein,5.8,Instagram,Yes,5.2,5,Single,4,9
-91,22,Male,Graduate,Montenegro,2.9,Facebook,No,7.0,7,In Relationship,2,5
-92,19,Female,Undergraduate,Albania,4.7,TikTok,Yes,5.8,6,Complicated,3,7
-93,21,Male,Undergraduate,North Macedonia,3.7,Snapchat,No,6.5,7,Single,2,6
-94,20,Female,High School,Kosovo,5.5,Instagram,Yes,5.4,5,In Relationship,4,8
-95,23,Male,Graduate,Bosnia,2.4,LinkedIn,No,7.4,8,Complicated,1,4
-96,19,Female,Undergraduate,Qatar,4.9,TikTok,Yes,5.7,6,Single,3,7
-97,18,Male,High School,Kuwait,5.7,Snapchat,Yes,5.3,5,In Relationship,4,8
-98,22,Female,Graduate,Bahrain,2.8,LinkedIn,No,7.1,8,Complicated,1,4
-99,20,Male,Undergraduate,Oman,4.6,Instagram,Yes,5.9,6,Single,3,7
-100,21,Female,Undergraduate,Jordan,5.4,TikTok,Yes,5.5,5,In Relationship,4,8
-101,19,Male,High School,Lebanon,5.8,YouTube,Yes,5.2,5,Complicated,4,9
-102,23,Female,Graduate,Iraq,2.5,LinkedIn,No,7.3,8,Single,1,4
-103,20,Male,Undergraduate,Yemen,4.7,Facebook,Yes,5.8,6,In Relationship,3,7
-104,18,Female,High School,Syria,5.6,Instagram,Yes,5.4,5,Single,4,8
-105,22,Male,Graduate,Afghanistan,2.9,LinkedIn,No,7.0,7,Complicated,2,5
-106,19,Female,Undergraduate,Pakistan,4.8,TikTok,Yes,5.7,6,In Relationship,3,7
-107,21,Male,Undergraduate,Nepal,3.8,YouTube,No,6.6,7,Single,2,6
-108,20,Female,High School,Bhutan,5.5,Snapchat,Yes,5.5,5,Complicated,4,8
-109,23,Male,Graduate,Sri Lanka,2.6,LinkedIn,No,7.2,8,In Relationship,1,4
-110,19,Female,Undergraduate,Maldives,4.9,Instagram,Yes,5.8,6,Single,3,7
-111,20,Male,Undergraduate,Bangladesh,6.1,Instagram,Yes,6.2,5,Single,4,8
-112,21,Female,Undergraduate,India,5.8,TikTok,Yes,5.9,6,In Relationship,3,7
-113,19,Male,Undergraduate,Nepal,4.9,Facebook,No,7.1,7,Single,2,5
-114,22,Female,Graduate,Pakistan,5.5,Instagram,Yes,6.0,5,Single,4,8
-115,20,Male,Undergraduate,Sri Lanka,5.2,TikTok,Yes,6.3,6,In Relationship,3,7
-116,19,Female,Undergraduate,Maldives,4.8,Instagram,No,7.2,8,Single,2,5
-117,21,Male,Graduate,Bangladesh,6.0,Facebook,Yes,5.8,5,In Relationship,4,8
-118,20,Female,Undergraduate,India,5.7,Instagram,Yes,6.1,6,Single,3,7
-119,22,Male,Graduate,Nepal,4.7,TikTok,No,7.3,7,Single,2,5
-120,19,Female,Undergraduate,Pakistan,5.4,Instagram,Yes,6.2,5,In Relationship,4,8
-121,20,Male,Undergraduate,Sri Lanka,5.9,Facebook,Yes,5.9,6,Single,3,7
-122,21,Female,Graduate,Maldives,4.6,Instagram,No,7.4,8,In Relationship,2,5
-123,19,Male,Undergraduate,Bangladesh,5.3,TikTok,Yes,6.3,5,Single,4,8
-124,22,Female,Graduate,India,5.8,Instagram,Yes,5.8,6,In Relationship,3,7
-125,20,Male,Undergraduate,Nepal,4.5,Facebook,No,7.5,7,Single,2,5
-126,21,Female,Graduate,Pakistan,5.2,Instagram,Yes,6.4,5,In Relationship,4,8
-127,19,Male,Undergraduate,Sri Lanka,5.7,TikTok,Yes,5.7,6,Single,3,7
-128,20,Female,Undergraduate,Maldives,4.4,Instagram,No,7.6,8,In Relationship,2,5
-129,22,Male,Graduate,Bangladesh,5.1,Facebook,Yes,6.5,5,Single,4,8
-130,21,Female,Graduate,India,5.6,Instagram,Yes,5.6,6,In Relationship,3,7
-131,19,Male,Undergraduate,Nepal,4.3,TikTok,No,7.7,7,Single,2,5
-132,20,Female,Undergraduate,Pakistan,5.0,Instagram,Yes,6.6,5,In Relationship,4,8
-133,22,Male,Graduate,Sri Lanka,5.5,Facebook,Yes,5.5,6,Single,3,7
-134,21,Female,Graduate,Maldives,4.2,Instagram,No,7.8,8,In Relationship,2,5
-135,19,Male,Undergraduate,Bangladesh,4.9,TikTok,Yes,6.7,5,Single,4,8
-136,20,Female,Undergraduate,India,5.4,Instagram,Yes,5.4,6,In Relationship,3,7
-137,22,Male,Graduate,Nepal,4.1,Facebook,No,7.9,7,Single,2,5
-138,21,Female,Graduate,Pakistan,4.8,Instagram,Yes,6.8,5,In Relationship,4,8
-139,19,Male,Undergraduate,Sri Lanka,5.3,TikTok,Yes,5.3,6,Single,3,7
-140,20,Female,Undergraduate,Maldives,4.0,Instagram,No,8.0,8,In Relationship,2,5
-141,22,Male,Graduate,Bangladesh,4.7,Facebook,Yes,6.9,5,Single,4,8
-142,21,Female,Graduate,India,5.2,Instagram,Yes,5.2,6,In Relationship,3,7
-143,19,Male,Undergraduate,Nepal,3.9,TikTok,No,8.1,7,Single,2,5
-144,20,Female,Undergraduate,Pakistan,4.6,Instagram,Yes,7.0,5,In Relationship,4,8
-145,22,Male,Graduate,Sri Lanka,5.1,Facebook,Yes,5.1,6,Single,3,7
-146,21,Female,Graduate,Maldives,3.8,Instagram,No,8.2,8,In Relationship,2,5
-147,19,Male,Undergraduate,Bangladesh,4.5,TikTok,Yes,7.1,5,Single,4,8
-148,20,Female,Undergraduate,India,5.0,Instagram,Yes,5.0,6,In Relationship,3,7
-149,22,Male,Graduate,Nepal,3.7,Facebook,No,8.3,7,Single,2,5
-150,21,Female,Graduate,Pakistan,4.4,Instagram,Yes,7.2,5,In Relationship,4,8
-151,19,Male,Undergraduate,Sri Lanka,4.9,TikTok,Yes,4.9,6,Single,3,7
-152,20,Female,Undergraduate,Maldives,3.6,Instagram,No,8.4,8,In Relationship,2,5
-153,22,Male,Graduate,Bangladesh,4.3,Facebook,Yes,7.3,5,Single,4,8
-154,21,Female,Graduate,India,4.8,Instagram,Yes,4.8,6,In Relationship,3,7
-155,19,Male,Undergraduate,Nepal,3.5,TikTok,No,8.5,7,Single,2,5
-156,20,Female,Undergraduate,Pakistan,4.2,Instagram,Yes,7.4,5,In Relationship,4,8
-157,22,Male,Graduate,Sri Lanka,4.7,Facebook,Yes,4.7,6,Single,3,7
-158,21,Female,Graduate,Maldives,3.4,Instagram,No,8.6,8,In Relationship,2,5
-159,19,Male,Undergraduate,Bangladesh,4.1,TikTok,Yes,7.5,5,Single,4,8
-160,20,Female,Undergraduate,India,4.6,Instagram,Yes,4.6,6,In Relationship,3,7
-161,19,Female,Undergraduate,Bangladesh,5.3,Instagram,Yes,6.1,5,Single,3,7
-162,21,Male,Graduate,India,4.8,Facebook,No,7.2,7,In Relationship,2,6
-163,20,Female,Undergraduate,Nepal,5.5,TikTok,Yes,5.9,6,Single,4,8
-164,22,Male,Graduate,Pakistan,4.7,Instagram,Yes,6.3,5,In Relationship,3,7
-165,19,Female,Undergraduate,Sri Lanka,5.1,Facebook,No,7.0,7,Single,2,5
-166,21,Male,Graduate,Maldives,5.4,TikTok,Yes,6.0,6,In Relationship,4,8
-167,20,Female,Undergraduate,Bangladesh,4.9,Instagram,Yes,6.4,5,Single,3,7
-168,22,Male,Graduate,India,5.2,Facebook,No,7.1,7,In Relationship,2,6
-169,19,Female,Undergraduate,Nepal,5.6,TikTok,Yes,5.8,6,Single,4,8
-170,21,Male,Graduate,Pakistan,4.6,Instagram,Yes,6.5,5,In Relationship,3,7
-171,20,Female,Undergraduate,Sri Lanka,5.0,Facebook,No,7.3,7,Single,2,5
-172,22,Male,Graduate,Maldives,5.3,TikTok,Yes,5.7,6,In Relationship,4,8
-173,19,Female,Undergraduate,Bangladesh,4.8,Instagram,Yes,6.6,5,Single,3,7
-174,21,Male,Graduate,India,5.1,Facebook,No,7.4,7,In Relationship,2,6
-175,20,Female,Undergraduate,Nepal,5.7,TikTok,Yes,5.6,6,Single,4,8
-176,22,Male,Graduate,Pakistan,4.5,Instagram,Yes,6.7,5,In Relationship,3,7
-177,19,Female,Undergraduate,Sri Lanka,4.9,Facebook,No,7.5,7,Single,2,5
-178,21,Male,Graduate,Maldives,5.2,TikTok,Yes,5.5,6,In Relationship,4,8
-179,20,Female,Undergraduate,Bangladesh,4.7,Instagram,Yes,6.8,5,Single,3,7
-180,22,Male,Graduate,India,5.0,Facebook,No,7.6,7,In Relationship,2,6
-181,19,Female,Undergraduate,Nepal,5.8,TikTok,Yes,5.4,6,Single,4,8
-182,21,Male,Graduate,Pakistan,4.4,Instagram,Yes,6.9,5,In Relationship,3,7
-183,20,Female,Undergraduate,Sri Lanka,4.8,Facebook,No,7.7,7,Single,2,5
-184,22,Male,Graduate,Maldives,5.1,TikTok,Yes,5.3,6,In Relationship,4,8
-185,19,Female,Undergraduate,Bangladesh,4.6,Instagram,Yes,7.0,5,Single,3,7
-186,21,Male,Graduate,India,4.9,Facebook,No,7.8,7,In Relationship,2,6
-187,20,Female,Undergraduate,Nepal,5.9,TikTok,Yes,5.2,6,Single,4,8
-188,22,Male,Graduate,Pakistan,4.3,Instagram,Yes,7.1,5,In Relationship,3,7
-189,19,Female,Undergraduate,Sri Lanka,4.7,Facebook,No,7.9,7,Single,2,5
-190,21,Male,Graduate,Maldives,5.0,TikTok,Yes,5.1,6,In Relationship,4,8
-191,20,Female,Undergraduate,Bangladesh,4.5,Instagram,Yes,7.2,5,Single,3,7
-192,22,Male,Graduate,India,4.8,Facebook,No,8.0,7,In Relationship,2,6
-193,19,Female,Undergraduate,Nepal,6.0,TikTok,Yes,5.0,6,Single,4,8
-194,21,Male,Graduate,Pakistan,4.2,Instagram,Yes,7.3,5,In Relationship,3,7
-195,20,Female,Undergraduate,Sri Lanka,4.6,Facebook,No,8.1,7,Single,2,5
-196,22,Male,Graduate,Maldives,4.9,TikTok,Yes,4.9,6,In Relationship,4,8
-197,19,Female,Undergraduate,Bangladesh,4.4,Instagram,Yes,7.4,5,Single,3,7
-198,21,Male,Graduate,India,4.7,Facebook,No,8.2,7,In Relationship,2,6
-199,20,Female,Undergraduate,Nepal,6.1,TikTok,Yes,4.8,6,Single,4,8
-200,22,Male,Graduate,Pakistan,4.1,Instagram,Yes,7.5,5,In Relationship,3,7
-201,19,Female,Undergraduate,Sri Lanka,4.5,Facebook,No,8.3,7,Single,2,5
-202,21,Male,Graduate,Maldives,4.8,TikTok,Yes,4.7,6,In Relationship,4,8
-203,20,Female,Undergraduate,Bangladesh,4.3,Instagram,Yes,7.6,5,Single,3,7
-204,22,Male,Graduate,India,4.6,Facebook,No,8.4,7,In Relationship,2,6
-205,19,Female,Undergraduate,Nepal,6.2,TikTok,Yes,4.6,6,Single,4,8
-206,21,Male,Graduate,Pakistan,4.0,Instagram,Yes,7.7,5,In Relationship,3,7
-207,20,Female,Undergraduate,Sri Lanka,4.4,Facebook,No,8.5,7,Single,2,5
-208,22,Male,Graduate,Maldives,4.7,TikTok,Yes,4.5,6,In Relationship,4,8
-209,19,Female,Undergraduate,Bangladesh,4.2,Instagram,Yes,7.8,5,Single,3,7
-210,21,Male,Graduate,India,4.5,Facebook,No,8.6,7,In Relationship,2,6
-211,20,Female,Undergraduate,Nepal,6.3,TikTok,Yes,4.4,6,Single,4,8
-212,22,Male,Graduate,Pakistan,3.9,Instagram,Yes,7.9,5,In Relationship,3,7
-213,19,Female,Undergraduate,Sri Lanka,4.3,Facebook,No,8.7,7,Single,2,5
-214,21,Male,Graduate,Maldives,4.6,TikTok,Yes,4.3,6,In Relationship,4,8
-215,20,Female,Undergraduate,Bangladesh,4.1,Instagram,Yes,8.0,5,Single,3,7
-216,22,Male,Graduate,India,4.4,Facebook,No,8.8,7,In Relationship,2,6
-217,19,Female,Undergraduate,Nepal,6.4,TikTok,Yes,4.2,6,Single,4,8
-218,21,Male,Graduate,Pakistan,3.8,Instagram,Yes,8.1,5,In Relationship,3,7
-219,20,Female,Undergraduate,Sri Lanka,4.2,Facebook,No,8.9,7,Single,2,5
-220,22,Male,Graduate,Maldives,4.5,TikTok,Yes,4.1,6,In Relationship,4,8
-221,19,Female,Undergraduate,USA,6.5,Instagram,Yes,6.0,5,Single,4,9
-222,21,Male,Graduate,UK,5.8,TikTok,Yes,6.5,6,In Relationship,3,7
-223,20,Female,Undergraduate,Australia,4.5,Instagram,No,7.5,8,Single,2,5
-224,22,Male,Graduate,Germany,4.2,Facebook,No,7.8,7,In Relationship,2,4
-225,19,Female,Undergraduate,Japan,3.8,LINE,No,7.9,8,Single,1,3
-226,21,Male,Graduate,Italy,5.5,Instagram,Yes,6.8,6,Single,3,7
-227,20,Female,Undergraduate,South Korea,5.2,KakaoTalk,Yes,6.5,6,In Relationship,3,6
-228,22,Male,Graduate,Russia,4.8,VKontakte,No,7.2,7,Single,2,5
-229,19,Female,Undergraduate,USA,7.0,TikTok,Yes,5.8,4,In Relationship,4,9
-230,21,Male,Graduate,UK,5.5,Instagram,Yes,6.7,6,Single,3,7
-231,20,Female,Undergraduate,Australia,4.7,Facebook,No,7.4,7,In Relationship,2,5
-232,22,Male,Graduate,Germany,4.0,Instagram,No,7.9,8,Single,1,4
-233,19,Female,Undergraduate,Japan,3.5,LINE,No,8.0,8,Single,1,3
-234,21,Male,Graduate,Italy,5.7,TikTok,Yes,6.5,5,In Relationship,3,8
-235,20,Female,Undergraduate,South Korea,5.0,KakaoTalk,Yes,6.8,6,Single,3,6
-236,22,Male,Graduate,Russia,4.5,VKontakte,No,7.4,7,In Relationship,2,5
-237,19,Female,Undergraduate,USA,6.8,Instagram,Yes,5.9,4,Single,4,9
-238,21,Male,Graduate,UK,5.6,Facebook,Yes,6.6,6,In Relationship,3,7
-239,20,Female,Undergraduate,Australia,4.6,Instagram,No,7.3,7,Single,2,5
-240,22,Male,Graduate,Germany,4.1,Facebook,No,7.7,8,In Relationship,2,4
-241,19,Female,Undergraduate,Japan,3.7,LINE,No,7.8,8,Single,1,3
-242,21,Male,Graduate,Italy,5.4,Instagram,Yes,6.7,5,Single,3,7
-243,20,Female,Undergraduate,South Korea,5.1,KakaoTalk,Yes,6.6,6,In Relationship,3,6
-244,22,Male,Graduate,Russia,4.7,VKontakte,No,7.3,7,Single,2,5
-245,19,Female,Undergraduate,USA,6.9,TikTok,Yes,5.7,4,In Relationship,4,9
-246,21,Male,Graduate,UK,5.7,Instagram,Yes,6.4,6,Single,3,7
-247,20,Female,Undergraduate,Australia,4.8,Facebook,No,7.2,7,In Relationship,2,5
-248,22,Male,Graduate,Germany,3.9,Instagram,No,7.8,8,Single,1,4
-249,19,Female,Undergraduate,Japan,3.6,LINE,No,8.1,8,Single,1,3
-250,21,Male,Graduate,Italy,5.6,TikTok,Yes,6.6,5,In Relationship,3,8
-251,20,Female,Undergraduate,South Korea,4.9,KakaoTalk,Yes,6.9,6,Single,3,6
-252,22,Male,Graduate,Russia,4.6,VKontakte,No,7.5,7,In Relationship,2,5
-253,19,Female,Undergraduate,USA,6.7,Instagram,Yes,5.8,4,Single,4,9
-254,21,Male,Graduate,UK,5.4,Facebook,Yes,6.5,6,In Relationship,3,7
-255,20,Female,Undergraduate,Australia,4.4,Instagram,No,7.4,7,Single,2,5
-256,22,Male,Graduate,Germany,4.0,Facebook,No,7.6,8,In Relationship,2,4
-257,19,Female,Undergraduate,Japan,3.4,LINE,No,8.2,8,Single,1,3
-258,21,Male,Graduate,Italy,5.3,Instagram,Yes,6.8,5,Single,3,7
-259,20,Female,Undergraduate,South Korea,5.0,KakaoTalk,Yes,6.7,6,In Relationship,3,6
-260,22,Male,Graduate,Russia,4.4,VKontakte,No,7.6,7,Single,2,5
-261,19,Female,Undergraduate,USA,6.6,TikTok,Yes,5.6,4,In Relationship,4,9
-262,21,Male,Graduate,UK,5.3,Instagram,Yes,6.3,6,Single,3,7
-263,20,Female,Undergraduate,Australia,4.3,Facebook,No,7.5,7,In Relationship,2,5
-264,22,Male,Graduate,Germany,3.8,Instagram,No,7.7,8,Single,1,4
-265,19,Female,Undergraduate,Japan,3.3,LINE,No,8.3,8,Single,1,3
-266,21,Male,Graduate,Italy,5.2,TikTok,Yes,6.9,5,In Relationship,3,8
-267,20,Female,Undergraduate,South Korea,4.8,KakaoTalk,Yes,7.0,6,Single,3,6
-268,22,Male,Graduate,Russia,4.3,VKontakte,No,7.7,7,In Relationship,2,5
-269,19,Female,Undergraduate,USA,6.4,Instagram,Yes,5.7,4,Single,4,9
-270,21,Male,Graduate,UK,5.2,Facebook,Yes,6.4,6,In Relationship,3,7
-271,20,Female,Undergraduate,Australia,4.5,Instagram,No,7.3,7,Single,2,5
-272,22,Male,Graduate,Germany,3.7,Facebook,No,7.8,8,In Relationship,1,4
-273,19,Female,Undergraduate,Japan,3.2,LINE,No,8.4,8,Single,1,3
-274,21,Male,Graduate,Italy,5.4,Instagram,Yes,6.7,5,Single,3,7
-275,20,Female,Undergraduate,South Korea,4.7,KakaoTalk,Yes,7.1,6,In Relationship,3,6
-276,22,Male,Graduate,Russia,4.2,VKontakte,No,7.8,7,Single,2,5
-277,19,Female,Undergraduate,USA,6.6,TikTok,Yes,5.5,4,In Relationship,4,9
-278,21,Male,Graduate,UK,5.1,Instagram,Yes,6.5,6,Single,3,7
-279,20,Female,Undergraduate,Australia,4.4,Facebook,No,7.4,7,In Relationship,2,5
-280,22,Male,Graduate,Germany,3.6,Instagram,No,7.9,8,Single,1,4
-281,19,Female,Undergraduate,Japan,3.1,LINE,No,8.5,8,Single,1,3
-282,21,Male,Graduate,Italy,5.3,TikTok,Yes,6.8,5,In Relationship,3,8
-283,20,Female,Undergraduate,South Korea,4.6,KakaoTalk,Yes,7.2,6,Single,3,6
-284,22,Male,Graduate,Russia,4.1,VKontakte,No,7.9,7,In Relationship,2,5
-285,19,Female,Undergraduate,USA,6.7,Instagram,Yes,5.4,4,Single,4,9
-286,21,Male,Graduate,UK,5.0,Facebook,Yes,6.6,6,In Relationship,3,7
-287,20,Female,Undergraduate,Australia,4.3,Instagram,No,7.5,7,Single,2,5
-288,22,Male,Graduate,Germany,3.5,Facebook,No,8.0,8,In Relationship,1,4
-289,19,Female,Undergraduate,Japan,3.0,LINE,No,8.6,8,Single,1,3
-290,21,Male,Graduate,Italy,5.2,Instagram,Yes,6.9,5,Single,3,7
-291,20,Female,Undergraduate,South Korea,4.5,KakaoTalk,Yes,7.3,6,In Relationship,3,6
-292,22,Male,Graduate,Russia,4.0,VKontakte,No,8.0,7,Single,2,5
-293,19,Female,Undergraduate,USA,6.8,TikTok,Yes,5.3,4,In Relationship,4,9
-294,21,Male,Graduate,UK,4.9,Instagram,Yes,6.7,6,Single,3,7
-295,20,Female,Undergraduate,Australia,4.2,Facebook,No,7.6,7,In Relationship,2,5
-296,22,Male,Graduate,Germany,3.4,Instagram,No,8.1,8,Single,1,4
-297,19,Female,Undergraduate,Japan,2.9,LINE,No,8.7,8,Single,1,3
-298,21,Male,Graduate,Italy,5.1,TikTok,Yes,7.0,5,In Relationship,3,8
-299,20,Female,Undergraduate,South Korea,4.4,KakaoTalk,Yes,7.4,6,Single,3,6
-300,22,Male,Graduate,Russia,3.9,VKontakte,No,8.1,7,In Relationship,2,5
-301,19,Female,Undergraduate,USA,6.9,Instagram,Yes,5.2,4,Single,4,9
-302,21,Male,Graduate,UK,4.8,Facebook,Yes,6.8,6,In Relationship,3,7
-303,20,Female,Undergraduate,Australia,4.1,Instagram,No,7.7,7,Single,2,5
-304,22,Male,Graduate,Germany,3.3,Facebook,No,8.2,8,In Relationship,1,4
-305,19,Female,Undergraduate,Japan,2.8,LINE,No,8.8,8,Single,1,3
-306,21,Male,Graduate,Italy,5.0,Instagram,Yes,7.1,5,Single,3,7
-307,20,Female,Undergraduate,South Korea,4.3,KakaoTalk,Yes,7.5,6,In Relationship,3,6
-308,22,Male,Graduate,Russia,3.8,VKontakte,No,8.2,7,Single,2,5
-309,19,Female,Undergraduate,USA,7.0,TikTok,Yes,5.1,4,In Relationship,4,9
-310,21,Male,Graduate,UK,4.7,Instagram,Yes,6.9,6,Single,3,7
-311,20,Female,Undergraduate,Australia,4.0,Facebook,No,7.8,7,In Relationship,2,5
-312,22,Male,Graduate,Germany,3.2,Instagram,No,8.3,8,Single,1,4
-313,19,Female,Undergraduate,Japan,2.7,LINE,No,8.9,8,Single,1,3
-314,21,Male,Graduate,Italy,4.9,TikTok,Yes,7.2,5,In Relationship,3,8
-315,20,Female,Undergraduate,South Korea,4.2,KakaoTalk,Yes,7.6,6,Single,3,6
-316,22,Male,Graduate,Russia,3.7,VKontakte,No,8.3,7,In Relationship,2,5
-317,19,Female,Undergraduate,USA,7.1,Instagram,Yes,5.0,4,Single,4,9
-318,21,Male,Graduate,UK,4.6,Facebook,Yes,7.0,6,In Relationship,3,7
-319,20,Female,Undergraduate,Australia,3.9,Instagram,No,7.9,7,Single,2,5
-320,22,Male,Graduate,Germany,3.1,Facebook,No,8.4,8,In Relationship,1,4
-321,19,Female,Undergraduate,Spain,5.2,Instagram,Yes,6.8,6,Single,3,7
-322,21,Male,Graduate,Denmark,4.1,Facebook,No,7.8,8,In Relationship,2,4
-323,20,Female,Undergraduate,Ireland,5.0,Instagram,Yes,7.0,7,Single,3,6
-324,22,Male,Graduate,India,5.8,WhatsApp,Yes,6.5,5,In Relationship,4,8
-325,19,Female,Undergraduate,Switzerland,4.0,Instagram,No,7.9,8,Single,2,4
-326,21,Male,Graduate,Turkey,5.5,Instagram,Yes,6.7,6,Single,3,7
-327,20,Female,Undergraduate,USA,6.8,TikTok,Yes,5.5,5,In Relationship,4,9
-328,22,Male,Graduate,Mexico,5.6,WhatsApp,Yes,6.6,6,Single,3,7
-329,19,Female,Undergraduate,France,4.5,Instagram,No,7.5,7,In Relationship,2,5
-330,21,Male,Graduate,Canada,5.3,Instagram,Yes,6.9,6,Single,3,7
-331,20,Female,Undergraduate,Spain,5.1,TikTok,Yes,6.7,6,Single,3,7
-332,22,Male,Graduate,Denmark,3.9,Facebook,No,7.9,8,In Relationship,2,4
-333,19,Female,Undergraduate,Ireland,4.8,Instagram,Yes,7.1,7,Single,3,6
-334,21,Male,Graduate,India,5.9,WhatsApp,Yes,6.4,5,In Relationship,4,8
-335,20,Female,Undergraduate,Switzerland,3.8,Instagram,No,8.0,8,Single,2,4
-336,22,Male,Graduate,Turkey,5.4,TikTok,Yes,6.8,6,Single,3,7
-337,19,Female,Undergraduate,USA,6.9,Instagram,Yes,5.4,5,In Relationship,4,9
-338,21,Male,Graduate,Mexico,5.7,WhatsApp,Yes,6.5,6,Single,3,7
-339,20,Female,Undergraduate,France,4.4,Instagram,No,7.6,7,In Relationship,2,5
-340,22,Male,Graduate,Canada,5.2,TikTok,Yes,7.0,6,Single,3,7
-341,19,Female,Undergraduate,Spain,5.0,Instagram,Yes,6.9,6,Single,3,7
-342,21,Male,Graduate,Denmark,3.8,Facebook,No,8.0,8,In Relationship,2,4
-343,20,Female,Undergraduate,Ireland,4.7,TikTok,Yes,7.2,7,Single,3,6
-344,22,Male,Graduate,India,6.0,WhatsApp,Yes,6.3,5,In Relationship,4,8
-345,19,Female,Undergraduate,Switzerland,3.7,Instagram,No,8.1,8,Single,2,4
-346,21,Male,Graduate,Turkey,5.3,Instagram,Yes,6.9,6,Single,3,7
-347,20,Female,Undergraduate,USA,7.0,TikTok,Yes,5.3,5,In Relationship,4,9
-348,22,Male,Graduate,Mexico,5.8,WhatsApp,Yes,6.4,6,Single,3,7
-349,19,Female,Undergraduate,France,4.3,Instagram,No,7.7,7,In Relationship,2,5
-350,21,Male,Graduate,Canada,5.1,Instagram,Yes,7.1,6,Single,3,7
-351,20,Female,Undergraduate,Spain,4.9,TikTok,Yes,7.0,6,Single,3,7
-352,22,Male,Graduate,Denmark,3.7,Facebook,No,8.1,8,In Relationship,2,4
-353,19,Female,Undergraduate,Ireland,4.6,Instagram,Yes,7.3,7,Single,3,6
-354,21,Male,Graduate,India,6.1,WhatsApp,Yes,6.2,5,In Relationship,4,8
-355,20,Female,Undergraduate,Switzerland,3.6,Instagram,No,8.2,8,Single,2,4
-356,22,Male,Graduate,Turkey,5.2,TikTok,Yes,7.0,6,Single,3,7
-357,19,Female,Undergraduate,USA,7.1,Instagram,Yes,5.2,5,In Relationship,4,9
-358,21,Male,Graduate,Mexico,5.9,WhatsApp,Yes,6.3,6,Single,3,7
-359,20,Female,Undergraduate,France,4.2,Instagram,No,7.8,7,In Relationship,2,5
-360,22,Male,Graduate,Canada,5.0,TikTok,Yes,7.2,6,Single,3,7
-361,19,Female,Undergraduate,Spain,4.8,Instagram,Yes,7.1,6,Single,3,7
-362,21,Male,Graduate,Denmark,3.6,Facebook,No,8.2,8,In Relationship,2,4
-363,20,Female,Undergraduate,Ireland,4.5,TikTok,Yes,7.4,7,Single,3,6
-364,22,Male,Graduate,India,6.2,WhatsApp,Yes,6.1,5,In Relationship,4,8
-365,19,Female,Undergraduate,Switzerland,3.5,Instagram,No,8.3,8,Single,2,4
-366,21,Male,Graduate,Turkey,5.1,Instagram,Yes,7.1,6,Single,3,7
-367,20,Female,Undergraduate,USA,7.2,TikTok,Yes,5.1,5,In Relationship,4,9
-368,22,Male,Graduate,Mexico,6.0,WhatsApp,Yes,6.2,6,Single,3,7
-369,19,Female,Undergraduate,France,4.1,Instagram,No,7.9,7,In Relationship,2,5
-370,21,Male,Graduate,Canada,4.9,Instagram,Yes,7.3,6,Single,3,7
-371,20,Female,Undergraduate,Spain,4.7,TikTok,Yes,7.2,6,Single,3,7
-372,22,Male,Graduate,Denmark,3.5,Facebook,No,8.3,8,In Relationship,2,4
-373,19,Female,Undergraduate,Ireland,4.4,Instagram,Yes,7.5,7,Single,3,6
-374,21,Male,Graduate,India,6.3,WhatsApp,Yes,6.0,5,In Relationship,4,8
-375,20,Female,Undergraduate,Switzerland,3.4,Instagram,No,8.4,8,Single,2,4
-376,22,Male,Graduate,Turkey,5.0,TikTok,Yes,7.2,6,Single,3,7
-377,19,Female,Undergraduate,USA,7.3,Instagram,Yes,5.0,5,In Relationship,4,9
-378,21,Male,Graduate,Mexico,6.1,WhatsApp,Yes,6.1,6,Single,3,7
-379,20,Female,Undergraduate,France,4.0,Instagram,No,8.0,7,In Relationship,2,5
-380,22,Male,Graduate,Canada,4.8,TikTok,Yes,7.4,6,Single,3,7
-381,19,Female,Undergraduate,Spain,4.6,Instagram,Yes,7.3,6,Single,3,7
-382,21,Male,Graduate,Denmark,3.4,Facebook,No,8.4,8,In Relationship,2,4
-383,20,Female,Undergraduate,Ireland,4.3,TikTok,Yes,7.6,7,Single,3,6
-384,22,Male,Graduate,India,6.4,WhatsApp,Yes,5.9,5,In Relationship,4,8
-385,19,Female,Undergraduate,Switzerland,3.3,Instagram,No,8.5,8,Single,2,4
-386,21,Male,Graduate,Turkey,4.9,Instagram,Yes,7.3,6,Single,3,7
-387,20,Female,Undergraduate,USA,7.4,TikTok,Yes,4.9,5,In Relationship,4,9
-388,22,Male,Graduate,Mexico,6.2,WhatsApp,Yes,6.0,6,Single,3,7
-389,19,Female,Undergraduate,France,3.9,Instagram,No,8.1,7,In Relationship,2,5
-390,21,Male,Graduate,Canada,4.7,Instagram,Yes,7.5,6,Single,3,7
-391,20,Female,Undergraduate,Spain,4.5,TikTok,Yes,7.4,6,Single,3,7
-392,22,Male,Graduate,Denmark,3.3,Facebook,No,8.5,8,In Relationship,2,4
-393,19,Female,Undergraduate,Ireland,4.2,Instagram,Yes,7.7,7,Single,3,6
-394,21,Male,Graduate,India,6.5,WhatsApp,Yes,5.8,5,In Relationship,4,8
-395,20,Female,Undergraduate,Switzerland,3.2,Instagram,No,8.6,8,Single,2,4
-396,22,Male,Graduate,Turkey,4.8,TikTok,Yes,7.4,6,Single,3,7
-397,19,Female,Undergraduate,USA,7.5,Instagram,Yes,4.8,5,In Relationship,4,9
-398,21,Male,Graduate,Mexico,6.3,WhatsApp,Yes,5.9,6,Single,3,7
-399,20,Female,Undergraduate,France,3.8,Instagram,No,8.2,7,In Relationship,2,5
-400,22,Male,Graduate,Canada,4.6,TikTok,Yes,7.6,6,Single,3,7
-401,19,Female,Undergraduate,Spain,4.4,Instagram,Yes,7.5,6,Single,3,7
-402,21,Male,Graduate,Denmark,3.2,Facebook,No,8.6,8,In Relationship,2,4
-403,20,Female,Undergraduate,Ireland,4.1,TikTok,Yes,7.8,7,Single,3,6
-404,22,Male,Graduate,India,6.6,WhatsApp,Yes,5.7,5,In Relationship,4,8
-405,19,Female,Undergraduate,Switzerland,3.1,Instagram,No,8.7,8,Single,2,4
-406,21,Male,Graduate,Turkey,4.7,Instagram,Yes,7.5,6,Single,3,7
-407,20,Female,Undergraduate,USA,7.6,TikTok,Yes,4.7,5,In Relationship,4,9
-408,22,Male,Graduate,Mexico,6.4,WhatsApp,Yes,5.8,6,Single,3,7
-409,19,Female,Undergraduate,France,3.7,Instagram,No,8.3,7,In Relationship,2,5
-410,21,Male,Graduate,Canada,4.5,Instagram,Yes,7.7,6,Single,3,7
-411,20,Female,Undergraduate,Spain,4.3,TikTok,Yes,7.6,6,Single,3,7
-412,22,Male,Graduate,Denmark,3.1,Facebook,No,8.7,8,In Relationship,2,4
-413,19,Female,Undergraduate,Ireland,4.0,Instagram,Yes,7.9,7,Single,3,6
-414,21,Male,Graduate,India,6.7,WhatsApp,Yes,5.6,5,In Relationship,4,8
-415,20,Female,Undergraduate,Switzerland,3.0,Instagram,No,8.8,8,Single,2,4
-416,22,Male,Graduate,Turkey,4.6,TikTok,Yes,7.6,6,Single,3,7
-417,19,Female,Undergraduate,USA,7.7,Instagram,Yes,4.6,5,In Relationship,4,9
-418,21,Male,Graduate,Mexico,6.5,WhatsApp,Yes,5.7,6,Single,3,7
-419,20,Female,Undergraduate,France,3.6,Instagram,No,8.4,7,In Relationship,2,5
-420,22,Male,Graduate,Canada,4.4,TikTok,Yes,7.8,6,Single,3,7
-421,19,Female,Undergraduate,Spain,4.2,Instagram,Yes,7.7,6,Single,3,7
-422,21,Male,Graduate,Denmark,3.0,Facebook,No,8.8,8,In Relationship,2,4
-423,20,Female,Undergraduate,Ireland,3.9,TikTok,Yes,8.0,7,Single,3,6
-424,22,Male,Graduate,India,6.8,WhatsApp,Yes,5.5,5,In Relationship,4,8
-425,19,Female,Undergraduate,Switzerland,2.9,Instagram,No,8.9,8,Single,2,4
-426,21,Male,Graduate,Turkey,4.5,Instagram,Yes,7.7,6,Single,3,7
-427,20,Female,Undergraduate,USA,7.8,TikTok,Yes,4.5,5,In Relationship,4,9
-428,22,Male,Graduate,Mexico,6.6,WhatsApp,Yes,5.6,6,Single,3,7
-429,19,Female,Undergraduate,France,3.5,Instagram,No,8.5,7,In Relationship,2,5
-430,21,Male,Graduate,Canada,4.3,Instagram,Yes,7.9,6,Single,3,7
-431,20,Female,Undergraduate,Spain,4.1,TikTok,Yes,7.8,6,Single,3,7
-432,22,Male,Graduate,Denmark,2.9,Facebook,No,8.9,8,In Relationship,2,4
-433,19,Female,Undergraduate,Ireland,3.8,Instagram,Yes,8.1,7,Single,3,6
-434,21,Male,Graduate,India,6.9,WhatsApp,Yes,5.4,5,In Relationship,4,8
-435,20,Female,Undergraduate,Switzerland,2.8,Instagram,No,9.0,8,Single,2,4
-436,22,Male,Graduate,Turkey,4.4,TikTok,Yes,7.8,6,Single,3,7
-437,19,Female,Undergraduate,USA,7.9,Instagram,Yes,4.4,5,In Relationship,4,9
-438,21,Male,Graduate,Mexico,6.7,WhatsApp,Yes,5.5,6,Single,3,7
-439,20,Female,Undergraduate,France,3.4,Instagram,No,8.6,7,In Relationship,2,5
-440,22,Male,Graduate,Canada,4.2,TikTok,Yes,8.0,6,Single,3,7
-441,19,Female,Undergraduate,Spain,4.0,Instagram,Yes,7.9,6,Single,3,7
-442,21,Male,Graduate,Denmark,2.8,Facebook,No,9.0,8,In Relationship,2,4
-443,20,Female,Undergraduate,Ireland,3.7,TikTok,Yes,8.2,7,Single,3,6
-444,22,Male,Graduate,India,7.0,WhatsApp,Yes,5.3,5,In Relationship,4,8
-445,19,Female,Undergraduate,Switzerland,2.7,Instagram,No,9.1,8,Single,2,4
-446,21,Male,Graduate,Turkey,4.3,Instagram,Yes,7.9,6,Single,3,7
-447,20,Female,Undergraduate,USA,8.0,TikTok,Yes,4.3,5,In Relationship,4,9
-448,22,Male,Graduate,Mexico,6.8,WhatsApp,Yes,5.4,6,Single,3,7
-449,19,Female,Undergraduate,France,3.3,Instagram,No,8.7,7,In Relationship,2,5
-450,21,Male,Graduate,Canada,4.1,Instagram,Yes,8.1,6,Single,3,7
-451,20,Female,Undergraduate,Spain,3.9,TikTok,Yes,8.0,6,Single,3,7
-452,22,Male,Graduate,Denmark,2.7,Facebook,No,9.1,8,In Relationship,2,4
-453,19,Female,Undergraduate,Ireland,3.6,Instagram,Yes,8.3,7,Single,3,6
-454,21,Male,Graduate,India,7.1,WhatsApp,Yes,5.2,5,In Relationship,4,8
-455,20,Female,Undergraduate,Switzerland,2.6,Instagram,No,9.2,8,Single,2,4
-456,22,Male,Graduate,Turkey,4.2,TikTok,Yes,8.0,6,Single,3,7
-457,19,Female,Undergraduate,USA,8.1,Instagram,Yes,4.2,5,In Relationship,4,9
-458,21,Male,Graduate,Mexico,6.9,WhatsApp,Yes,5.3,6,Single,3,7
-459,20,Female,Undergraduate,France,3.2,Instagram,No,8.8,7,In Relationship,2,5
-460,22,Male,Graduate,Canada,4.0,TikTok,Yes,8.2,6,Single,3,7
-461,19,Female,Undergraduate,Spain,3.8,Instagram,Yes,8.1,6,Single,3,7
-462,21,Male,Graduate,Denmark,2.6,Facebook,No,9.2,8,In Relationship,2,4
-463,20,Female,Undergraduate,Ireland,3.5,TikTok,Yes,8.4,7,Single,3,6
-464,22,Male,Graduate,India,7.2,WhatsApp,Yes,5.1,5,In Relationship,4,8
-465,19,Female,Undergraduate,Switzerland,2.5,Instagram,No,9.3,8,Single,2,4
-466,21,Male,Graduate,Turkey,4.1,Instagram,Yes,8.1,6,Single,3,7
-467,20,Female,Undergraduate,USA,8.2,TikTok,Yes,4.1,5,In Relationship,4,9
-468,22,Male,Graduate,Mexico,7.0,WhatsApp,Yes,5.2,6,Single,3,7
-469,19,Female,Undergraduate,France,3.1,Instagram,No,8.9,7,In Relationship,2,5
-470,21,Male,Graduate,Canada,3.9,Instagram,Yes,8.3,6,Single,3,7
-471,20,Female,Undergraduate,Spain,3.7,TikTok,Yes,8.2,6,Single,3,7
-472,22,Male,Graduate,Denmark,2.5,Facebook,No,9.3,8,In Relationship,2,4
-473,19,Female,Undergraduate,Ireland,3.4,Instagram,Yes,8.5,7,Single,3,6
-474,21,Male,Graduate,India,7.3,WhatsApp,Yes,5.0,5,In Relationship,4,8
-475,20,Female,Undergraduate,Switzerland,2.4,Instagram,No,9.4,8,Single,2,4
-476,22,Male,Graduate,Turkey,4.0,TikTok,Yes,8.2,6,Single,3,7
-477,19,Female,Undergraduate,USA,8.3,Instagram,Yes,4.0,5,In Relationship,4,9
-478,21,Male,Graduate,Mexico,7.1,WhatsApp,Yes,5.1,6,Single,3,7
-479,20,Female,Undergraduate,France,3.0,Instagram,No,9.0,7,In Relationship,2,5
-480,22,Male,Graduate,Canada,3.8,TikTok,Yes,8.4,6,Single,3,7
-481,19,Female,Undergraduate,Spain,3.6,Instagram,Yes,8.3,6,Single,3,7
-482,21,Male,Graduate,Denmark,2.4,Facebook,No,9.4,8,In Relationship,2,4
-483,20,Female,Undergraduate,Ireland,3.3,TikTok,Yes,8.6,7,Single,3,6
-484,22,Male,Graduate,India,7.4,WhatsApp,Yes,4.9,5,In Relationship,4,8
-485,19,Female,Undergraduate,Switzerland,2.3,Instagram,No,9.5,8,Single,2,4
-486,21,Male,Graduate,Turkey,3.9,Instagram,Yes,8.3,6,Single,3,7
-487,20,Female,Undergraduate,USA,8.4,TikTok,Yes,3.9,5,In Relationship,4,9
-488,22,Male,Graduate,Mexico,7.2,WhatsApp,Yes,5.0,6,Single,3,7
-489,19,Female,Undergraduate,France,2.9,Instagram,No,9.1,7,In Relationship,2,5
-490,21,Male,Graduate,Canada,3.7,Instagram,Yes,8.5,6,Single,3,7
-491,20,Female,Undergraduate,Spain,3.5,TikTok,Yes,8.4,6,Single,3,7
-492,22,Male,Graduate,Denmark,2.3,Facebook,No,9.5,8,In Relationship,2,4
-493,19,Female,Undergraduate,Ireland,3.2,Instagram,Yes,8.7,7,Single,3,6
-494,21,Male,Graduate,India,7.5,WhatsApp,Yes,4.8,5,In Relationship,4,8
-495,20,Female,Undergraduate,Switzerland,2.2,Instagram,No,9.6,8,Single,2,4
-496,22,Male,Graduate,Turkey,3.8,TikTok,Yes,8.4,6,Single,3,7
-497,19,Female,Undergraduate,USA,8.5,Instagram,Yes,3.8,5,In Relationship,4,9
-498,21,Male,Graduate,Mexico,7.3,WhatsApp,Yes,4.9,6,Single,3,7
-499,20,Female,Undergraduate,France,2.8,Instagram,No,9.2,7,In Relationship,2,5
-500,22,Male,Graduate,Canada,3.6,TikTok,Yes,8.6,6,Single,3,7
-501,19,Female,Undergraduate,Brazil,6.2,WhatsApp,Yes,6.3,6,Single,3,7
-502,21,Male,Graduate,China,4.5,WeChat,No,7.8,7,In Relationship,2,5
-503,20,Female,Undergraduate,Netherlands,3.8,Instagram,No,8.2,8,Single,2,4
-504,22,Male,Graduate,New Zealand,4.7,Instagram,Yes,7.5,7,In Relationship,3,6
-505,19,Female,Undergraduate,Singapore,5.1,TikTok,Yes,7.0,6,Single,3,7
-506,21,Male,Graduate,Malaysia,5.5,WhatsApp,Yes,6.8,6,Single,3,7
-507,20,Female,Undergraduate,UAE,6.5,Instagram,Yes,6.5,5,In Relationship,4,8
-508,22,Male,Graduate,Poland,4.2,Facebook,No,7.9,7,Single,2,5
-509,19,Female,Undergraduate,India,6.8,WhatsApp,Yes,6.0,5,In Relationship,4,8
-510,21,Male,Graduate,Canada,4.8,Instagram,Yes,7.4,7,Single,3,6
-511,20,Female,Undergraduate,Brazil,6.1,Instagram,Yes,6.4,6,Single,3,7
-512,22,Male,Graduate,China,4.4,WeChat,No,7.9,7,In Relationship,2,5
-513,19,Female,Undergraduate,Netherlands,3.7,TikTok,No,8.3,8,Single,2,4
-514,21,Male,Graduate,New Zealand,4.6,Instagram,Yes,7.6,7,In Relationship,3,6
-515,20,Female,Undergraduate,Singapore,5.2,TikTok,Yes,6.9,6,Single,3,7
-516,22,Male,Graduate,Malaysia,5.6,WhatsApp,Yes,6.7,6,Single,3,7
-517,19,Female,Undergraduate,UAE,6.6,Instagram,Yes,6.4,5,In Relationship,4,8
-518,21,Male,Graduate,Poland,4.1,Facebook,No,8.0,7,Single,2,5
-519,20,Female,Undergraduate,India,6.9,WhatsApp,Yes,5.9,5,In Relationship,4,8
-520,22,Male,Graduate,Canada,4.7,TikTok,Yes,7.5,7,Single,3,6
-521,19,Female,Undergraduate,Brazil,6.0,WhatsApp,Yes,6.5,6,Single,3,7
-522,21,Male,Graduate,China,4.3,WeChat,No,8.0,7,In Relationship,2,5
-523,20,Female,Undergraduate,Netherlands,3.6,Instagram,No,8.4,8,Single,2,4
-524,22,Male,Graduate,New Zealand,4.5,Facebook,Yes,7.7,7,In Relationship,3,6
-525,19,Female,Undergraduate,Singapore,5.3,TikTok,Yes,6.8,6,Single,3,7
-526,21,Male,Graduate,Malaysia,5.7,WhatsApp,Yes,6.6,6,Single,3,7
-527,20,Female,Undergraduate,UAE,6.7,Instagram,Yes,6.3,5,In Relationship,4,8
-528,22,Male,Graduate,Poland,4.0,Facebook,No,8.1,7,Single,2,5
-529,19,Female,Undergraduate,India,7.0,WhatsApp,Yes,5.8,5,In Relationship,4,8
-530,21,Male,Graduate,Canada,4.6,Instagram,Yes,7.6,7,Single,3,6
-531,20,Female,Undergraduate,Brazil,5.9,TikTok,Yes,6.6,6,Single,3,7
-532,22,Male,Graduate,China,4.2,WeChat,No,8.1,7,In Relationship,2,5
-533,19,Female,Undergraduate,Netherlands,3.5,Instagram,No,8.5,8,Single,2,4
-534,21,Male,Graduate,New Zealand,4.4,Facebook,Yes,7.8,7,In Relationship,3,6
-535,20,Female,Undergraduate,Singapore,5.4,TikTok,Yes,6.7,6,Single,3,7
-536,22,Male,Graduate,Malaysia,5.8,WhatsApp,Yes,6.5,6,Single,3,7
-537,19,Female,Undergraduate,UAE,6.8,Instagram,Yes,6.2,5,In Relationship,4,8
-538,21,Male,Graduate,Poland,3.9,Facebook,No,8.2,7,Single,2,5
-539,20,Female,Undergraduate,India,7.1,WhatsApp,Yes,5.7,5,In Relationship,4,8
-540,22,Male,Graduate,Canada,4.5,TikTok,Yes,7.7,7,Single,3,6
-541,19,Female,Undergraduate,Brazil,5.8,WhatsApp,Yes,6.7,6,Single,3,7
-542,21,Male,Graduate,China,4.1,WeChat,No,8.2,7,In Relationship,2,5
-543,20,Female,Undergraduate,Netherlands,3.4,Instagram,No,8.6,8,Single,2,4
-544,22,Male,Graduate,New Zealand,4.3,Instagram,Yes,7.9,7,In Relationship,3,6
-545,19,Female,Undergraduate,Singapore,5.5,TikTok,Yes,6.6,6,Single,3,7
-546,21,Male,Graduate,Malaysia,5.9,WhatsApp,Yes,6.4,6,Single,3,7
-547,20,Female,Undergraduate,UAE,6.9,Instagram,Yes,6.1,5,In Relationship,4,8
-548,22,Male,Graduate,Poland,3.8,Facebook,No,8.3,7,Single,2,5
-549,19,Female,Undergraduate,India,7.2,WhatsApp,Yes,5.6,5,In Relationship,4,8
-550,21,Male,Graduate,Canada,4.4,Instagram,Yes,7.8,7,Single,3,6
-551,20,Female,Undergraduate,Brazil,5.7,TikTok,Yes,6.8,6,Single,3,7
-552,22,Male,Graduate,China,4.0,WeChat,No,8.3,7,In Relationship,2,5
-553,19,Female,Undergraduate,Netherlands,3.3,Instagram,No,8.7,8,Single,2,4
-554,21,Male,Graduate,New Zealand,4.2,Facebook,Yes,8.0,7,In Relationship,3,6
-555,20,Female,Undergraduate,Singapore,5.6,TikTok,Yes,6.5,6,Single,3,7
-556,22,Male,Graduate,Malaysia,6.0,WhatsApp,Yes,6.3,6,Single,3,7
-557,19,Female,Undergraduate,UAE,7.0,Instagram,Yes,6.0,5,In Relationship,4,8
-558,21,Male,Graduate,Poland,3.7,Facebook,No,8.4,7,Single,2,5
-559,20,Female,Undergraduate,India,7.3,WhatsApp,Yes,5.5,5,In Relationship,4,8
-560,22,Male,Graduate,Canada,4.3,TikTok,Yes,7.9,7,Single,3,6
-561,19,Female,Undergraduate,Brazil,5.6,WhatsApp,Yes,6.9,6,Single,3,7
-562,21,Male,Graduate,China,3.9,WeChat,No,8.4,7,In Relationship,2,5
-563,20,Female,Undergraduate,Netherlands,3.2,Instagram,No,8.8,8,Single,2,4
-564,22,Male,Graduate,New Zealand,4.1,Instagram,Yes,8.1,7,In Relationship,3,6
-565,19,Female,Undergraduate,Singapore,5.7,TikTok,Yes,6.4,6,Single,3,7
-566,21,Male,Graduate,Malaysia,6.1,WhatsApp,Yes,6.2,6,Single,3,7
-567,20,Female,Undergraduate,UAE,7.1,Instagram,Yes,5.9,5,In Relationship,4,8
-568,22,Male,Graduate,Poland,3.6,Facebook,No,8.5,7,Single,2,5
-569,19,Female,Undergraduate,India,7.4,WhatsApp,Yes,5.4,5,In Relationship,4,8
-570,21,Male,Graduate,Canada,4.2,Instagram,Yes,8.0,7,Single,3,6
-571,20,Female,Undergraduate,Spain,6.1,Instagram,Yes,7.2,5,Single,4,7
-572,23,Male,Graduate,Denmark,3.8,Twitter,No,7.8,8,In Relationship,2,4
-573,19,Female,Undergraduate,Ireland,5.5,TikTok,Yes,6.8,6,Single,4,8
-574,22,Male,Graduate,India,7.2,Facebook,Yes,5.9,4,Single,5,9
-575,21,Female,Undergraduate,Switzerland,4.2,Instagram,No,7.5,7,In Relationship,2,5
-576,24,Male,Graduate,Turkey,6.8,TikTok,Yes,6.2,5,Single,4,8
-577,20,Female,Undergraduate,USA,5.9,Instagram,Yes,6.7,6,In Relationship,3,7
-578,22,Male,Graduate,Mexico,6.5,Facebook,Yes,6.1,5,Single,4,8
-579,19,Female,Undergraduate,France,4.7,Twitter,No,7.4,7,Single,2,5
-580,23,Male,Graduate,Canada,5.2,Instagram,Yes,7.0,6,In Relationship,3,6
-581,21,Female,Undergraduate,UK,6.3,TikTok,Yes,6.4,5,Single,4,8
-582,24,Male,Graduate,Italy,4.9,Facebook,No,7.3,7,In Relationship,2,5
-583,20,Female,Undergraduate,Russia,6.7,Instagram,Yes,6.0,5,Single,4,8
-584,22,Male,Graduate,China,5.8,WeChat,Yes,6.5,6,In Relationship,3,7
-585,19,Female,Undergraduate,Japan,4.5,Twitter,No,7.6,8,Single,2,4
-586,23,Male,Graduate,Poland,6.4,Facebook,Yes,6.3,5,Single,4,8
-587,21,Female,Undergraduate,Finland,4.1,Instagram,No,7.7,7,In Relationship,2,5
-588,24,Male,Graduate,Spain,6.6,TikTok,Yes,6.2,5,Single,4,8
-589,20,Female,Undergraduate,Denmark,4.4,Instagram,No,7.4,7,In Relationship,2,5
-590,22,Male,Graduate,Ireland,5.7,Twitter,Yes,6.8,6,Single,3,7
-591,19,Female,Undergraduate,India,7.0,Instagram,Yes,5.8,4,Single,5,9
-592,23,Male,Graduate,Switzerland,4.3,Facebook,No,7.5,7,In Relationship,2,5
-593,21,Female,Undergraduate,Turkey,6.9,TikTok,Yes,6.1,5,Single,4,8
-594,24,Male,Graduate,USA,5.6,Instagram,Yes,6.9,6,In Relationship,3,7
-595,20,Female,Undergraduate,Mexico,6.2,Facebook,Yes,6.3,5,Single,4,8
-596,21,Male,Undergraduate,France,5.8,Instagram,Yes,6.7,6,Single,3,7
-597,23,Female,Graduate,Canada,4.9,TikTok,No,7.3,7,In Relationship,2,5
-598,20,Male,Undergraduate,UK,6.4,Facebook,Yes,6.2,5,Single,4,8
-599,22,Female,Graduate,Italy,5.1,Twitter,No,7.1,7,In Relationship,2,5
-600,19,Male,Undergraduate,Russia,6.7,Instagram,Yes,6.0,4,Single,4,8
-601,24,Female,Graduate,China,5.5,WeChat,Yes,6.8,6,In Relationship,3,7
-602,21,Male,Undergraduate,Japan,4.3,Twitter,No,7.6,8,Single,2,4
-603,23,Female,Graduate,Poland,6.2,Instagram,Yes,6.4,5,Single,4,8
-604,20,Male,Undergraduate,Finland,4.5,Facebook,No,7.4,7,In Relationship,2,5
-605,22,Female,Graduate,Spain,6.3,TikTok,Yes,6.3,5,Single,4,8
-606,19,Male,Undergraduate,Denmark,4.7,Instagram,No,7.2,7,In Relationship,2,5
-607,24,Female,Graduate,Ireland,5.9,Twitter,Yes,6.6,6,Single,3,7
-608,21,Male,Undergraduate,India,7.1,Facebook,Yes,5.7,4,Single,5,9
-609,23,Female,Graduate,Switzerland,4.4,Instagram,No,7.4,7,In Relationship,2,5
-610,20,Male,Undergraduate,Turkey,6.6,TikTok,Yes,6.2,5,Single,4,8
-611,22,Female,Graduate,USA,5.4,Instagram,Yes,6.9,6,In Relationship,3,7
-612,19,Male,Undergraduate,Mexico,6.5,Facebook,Yes,6.1,5,Single,4,8
-613,24,Female,Graduate,France,4.8,Twitter,No,7.3,7,In Relationship,2,5
-614,21,Male,Undergraduate,Canada,5.7,Instagram,Yes,6.7,6,Single,3,7
-615,23,Female,Graduate,UK,6.1,TikTok,Yes,6.4,5,Single,4,8
-616,20,Male,Undergraduate,Italy,4.6,Facebook,No,7.2,7,In Relationship,2,5
-617,22,Female,Graduate,Russia,6.8,Instagram,Yes,5.9,4,Single,5,9
-618,19,Male,Undergraduate,China,5.6,WeChat,Yes,6.8,6,In Relationship,3,7
-619,24,Female,Graduate,Japan,4.2,Twitter,No,7.5,8,Single,2,4
-620,21,Male,Undergraduate,Poland,6.3,TikTok,Yes,6.3,5,Single,4,8
-621,23,Female,Graduate,Finland,4.4,Instagram,No,7.4,7,In Relationship,2,5
-622,20,Male,Undergraduate,Spain,6.5,Facebook,Yes,6.2,5,Single,4,8
-623,22,Female,Graduate,Denmark,4.6,Twitter,No,7.3,7,In Relationship,2,5
-624,19,Male,Undergraduate,Ireland,5.8,Instagram,Yes,6.6,6,Single,3,7
-625,24,Female,Graduate,India,7.0,TikTok,Yes,5.8,4,Single,5,9
-626,21,Male,Undergraduate,Switzerland,4.5,Facebook,No,7.3,7,In Relationship,2,5
-627,23,Female,Graduate,Turkey,6.7,Instagram,Yes,6.1,5,Single,4,8
-628,20,Male,Undergraduate,USA,5.5,Twitter,Yes,6.8,6,In Relationship,3,7
-629,22,Female,Graduate,Mexico,6.4,Facebook,Yes,6.2,5,Single,4,8
-630,19,Male,Undergraduate,France,4.7,Instagram,No,7.2,7,In Relationship,2,5
-631,24,Female,Graduate,Canada,5.6,TikTok,Yes,6.7,6,Single,3,7
-632,21,Male,Undergraduate,UK,6.2,Facebook,Yes,6.3,5,Single,4,8
-633,23,Female,Graduate,Italy,4.8,Twitter,No,7.1,7,In Relationship,2,5
-634,20,Male,Undergraduate,Russia,6.9,Instagram,Yes,5.9,4,Single,5,9
-635,22,Female,Graduate,China,5.7,WeChat,Yes,6.7,6,In Relationship,3,7
-636,19,Male,Undergraduate,Japan,4.4,Twitter,No,7.4,8,Single,2,4
-637,24,Female,Graduate,Poland,6.1,TikTok,Yes,6.4,5,Single,4,8
-638,21,Male,Undergraduate,Finland,4.3,Instagram,No,7.5,7,In Relationship,2,5
-639,23,Female,Graduate,Spain,6.4,Facebook,Yes,6.2,5,Single,4,8
-640,20,Male,Undergraduate,Denmark,4.5,Twitter,No,7.3,7,In Relationship,2,5
-641,22,Female,Graduate,Ireland,5.9,Instagram,Yes,6.5,6,Single,3,7
-642,19,Male,Undergraduate,India,7.2,TikTok,Yes,5.7,4,Single,5,9
-643,24,Female,Graduate,Switzerland,4.6,Facebook,No,7.2,7,In Relationship,2,5
-644,21,Male,Undergraduate,Turkey,6.8,Instagram,Yes,6.0,5,Single,4,8
-645,23,Female,Graduate,USA,5.3,Twitter,Yes,6.8,6,In Relationship,3,7
-646,22,Male,Graduate,Mexico,6.3,Facebook,Yes,6.2,5,Single,4,8
-647,20,Female,Undergraduate,France,4.8,Instagram,No,7.1,7,In Relationship,2,5
-648,23,Male,Graduate,Canada,5.7,TikTok,Yes,6.6,6,Single,3,7
-649,21,Female,Undergraduate,UK,6.2,Twitter,Yes,6.3,5,Single,4,8
-650,24,Male,Graduate,Italy,4.7,Facebook,No,7.2,7,In Relationship,2,5
-651,19,Female,Undergraduate,Russia,6.8,Instagram,Yes,5.9,4,Single,5,9
-652,22,Male,Graduate,China,5.6,WeChat,Yes,6.7,6,In Relationship,3,7
-653,20,Female,Undergraduate,Japan,4.3,Twitter,No,7.5,8,Single,2,4
-654,23,Male,Graduate,Poland,6.2,TikTok,Yes,6.3,5,Single,4,8
-655,21,Female,Undergraduate,Finland,4.4,Instagram,No,7.4,7,In Relationship,2,5
-656,24,Male,Graduate,Spain,6.5,Facebook,Yes,6.1,5,Single,4,8
-657,19,Female,Undergraduate,Denmark,4.6,Twitter,No,7.3,7,In Relationship,2,5
-658,22,Male,Graduate,Ireland,5.8,Instagram,Yes,6.6,6,Single,3,7
-659,20,Female,Undergraduate,India,7.1,TikTok,Yes,5.8,4,Single,5,9
-660,23,Male,Graduate,Switzerland,4.5,Facebook,No,7.3,7,In Relationship,2,5
-661,21,Female,Undergraduate,Turkey,6.7,Instagram,Yes,6.0,5,Single,4,8
-662,24,Male,Graduate,USA,5.4,Twitter,Yes,6.8,6,In Relationship,3,7
-663,19,Female,Undergraduate,Mexico,6.4,TikTok,Yes,6.2,5,Single,4,8
-664,22,Male,Graduate,France,4.7,Facebook,No,7.2,7,In Relationship,2,5
-665,20,Female,Undergraduate,Canada,5.6,Instagram,Yes,6.7,6,Single,3,7
-666,23,Male,Graduate,UK,6.3,Twitter,Yes,6.2,5,Single,4,8
-667,21,Female,Undergraduate,Italy,4.8,TikTok,No,7.1,7,In Relationship,2,5
-668,24,Male,Graduate,Russia,6.9,Instagram,Yes,5.9,4,Single,5,9
-669,19,Female,Undergraduate,China,5.7,WeChat,Yes,6.7,6,In Relationship,3,7
-670,22,Male,Graduate,Japan,4.4,Twitter,No,7.4,8,Single,2,4
-671,20,Female,Undergraduate,Poland,6.1,Facebook,Yes,6.4,5,Single,4,8
-672,23,Male,Graduate,Finland,4.3,Instagram,No,7.5,7,In Relationship,2,5
-673,21,Female,Undergraduate,Spain,6.4,TikTok,Yes,6.2,5,Single,4,8
-674,24,Male,Graduate,Denmark,4.5,Twitter,No,7.3,7,In Relationship,2,5
-675,19,Female,Undergraduate,Ireland,5.9,Instagram,Yes,6.5,6,Single,3,7
-676,22,Male,Graduate,India,7.2,Facebook,Yes,5.7,4,Single,5,9
-677,20,Female,Undergraduate,Switzerland,4.6,TikTok,No,7.2,7,In Relationship,2,5
-678,23,Male,Graduate,Turkey,6.8,Instagram,Yes,6.0,5,Single,4,8
-679,21,Female,Undergraduate,USA,5.3,Twitter,Yes,6.8,6,In Relationship,3,7
-680,24,Male,Graduate,Mexico,6.2,Facebook,Yes,6.3,5,Single,4,8
-681,19,Female,Undergraduate,France,4.7,Instagram,No,7.2,7,In Relationship,2,5
-682,22,Male,Graduate,Canada,5.8,TikTok,Yes,6.6,6,Single,3,7
-683,20,Female,Undergraduate,UK,6.1,Twitter,Yes,6.4,5,Single,4,8
-684,23,Male,Graduate,Italy,4.8,Facebook,No,7.1,7,In Relationship,2,5
-685,21,Female,Undergraduate,Russia,6.7,Instagram,Yes,6.0,4,Single,5,9
-686,24,Male,Graduate,China,5.5,WeChat,Yes,6.8,6,In Relationship,3,7
-687,19,Female,Undergraduate,Japan,4.2,Twitter,No,7.5,8,Single,2,4
-688,22,Male,Graduate,Poland,6.3,TikTok,Yes,6.2,5,Single,4,8
-689,20,Female,Undergraduate,Finland,4.4,Instagram,No,7.4,7,In Relationship,2,5
-690,23,Male,Graduate,Spain,6.5,Facebook,Yes,6.1,5,Single,4,8
-691,21,Female,Undergraduate,Denmark,4.6,Twitter,No,7.3,7,In Relationship,2,5
-692,24,Male,Graduate,Ireland,5.9,Instagram,Yes,6.5,6,Single,3,7
-693,19,Female,Undergraduate,India,7.0,TikTok,Yes,5.8,4,Single,5,9
-694,22,Male,Graduate,Switzerland,4.5,Facebook,No,7.3,7,In Relationship,2,5
-695,20,Female,Undergraduate,Turkey,6.6,Instagram,Yes,6.1,5,Single,4,8
-696,23,Male,Graduate,USA,5.5,Twitter,Yes,6.7,6,In Relationship,3,7
-697,21,Female,Undergraduate,Mexico,6.3,TikTok,Yes,6.2,5,Single,4,8
-698,24,Male,Graduate,France,4.8,Facebook,No,7.1,7,In Relationship,2,5
-699,19,Female,Undergraduate,Canada,5.7,Instagram,Yes,6.6,6,Single,3,7
-700,22,Male,Graduate,UK,6.2,Twitter,Yes,6.3,5,Single,4,8
-701,20,Female,Undergraduate,Italy,4.7,TikTok,No,7.2,7,In Relationship,2,5
-702,23,Male,Graduate,Russia,6.8,Instagram,Yes,5.9,4,Single,5,9
-703,21,Female,Undergraduate,China,5.6,WeChat,Yes,6.7,6,In Relationship,3,7
-704,24,Male,Graduate,Japan,4.3,Twitter,No,7.5,8,Single,2,4
-705,19,Female,Undergraduate,Poland,6.2,Facebook,Yes,6.3,5,Single,4,8
+Date;Student_ID;Age;Gender;Academic_Level;Country;Name_Students;Avg_Daily_Usage_Hours;Most_Used_Platform;Affects_Academic_Performance;Sleep_Hours_Per_Night;Mental_Health_Score;Relationship_Status;Conflicts_Over_Social_Media;Addicted_Score
+15/03/2024;1;19;Female;Undergraduate;Bangladesh;Ali Nakamura;5,2;Instagram;Yes;6,5;6;In Relationship;3;8
+05/07/2024;2;22;Male;Graduate;India;Priya Karim;2,1;Twitter;No;7,5;8;Single;0;3
+12/08/2024;3;20;Female;Undergraduate;USA;Sofia Kumar;6;TikTok;Yes;5;5;Complicated;4;9
+25/04/2024;4;18;Male;High School;UK;Rohan Aziz;3;YouTube;No;7;7;Single;1;4
+22/10/2024;5;21;Male;Graduate;Canada;Minato Garcia;4,5;Facebook;Yes;6;6;In Relationship;2;7
+20/09/2024;6;19;Female;Undergraduate;Australia;Alexander Tanaka;7,2;Instagram;Yes;4,5;4;Complicated;5;9
+27/07/2024;7;23;Male;Graduate;Germany;Juan Santos;1,5;LinkedIn;No;8;9;Single;0;2
+26/02/2024;8;20;Female;Undergraduate;Brazil;Vikram Karim;5,8;Snapchat;Yes;6;6;In Relationship;2;8
+19/06/2024;9;18;Male;High School;Japan;Alexander Sato;4;TikTok;No;6,5;7;Single;1;5
+15/02/2024;10;21;Female;Graduate;South Korea;Yuki Ali;3,3;Instagram;No;7;7;In Relationship;1;4
+18/08/2024;11;19;Male;Undergraduate;France;Riku Costa;4,8;Snapchat;Yes;6,2;5;Complicated;3;7
+26/06/2024;12;20;Female;Undergraduate;Spain;Evelyn Sato;5,5;TikTok;Yes;5,8;6;In Relationship;2;8
+23/12/2024;13;22;Male;Graduate;Italy;Nadia Karim;2,8;LinkedIn;No;7,2;8;Single;1;4
+15/07/2024;14;18;Female;High School;Mexico;Yuki Hamdan;6,5;Instagram;Yes;5,5;5;Single;4;9
+24/04/2024;15;21;Male;Undergraduate;Russia;Diya Hernandez;3,7;YouTube;No;6,8;7;In Relationship;2;5
+13/11/2024;16;20;Female;Undergraduate;China;Lucia Yamamoto;4,2;TikTok;Yes;6;6;Complicated;3;7
+24/09/2024;17;24;Male;Graduate;Sweden;Liam Almeida;2;LinkedIn;No;7,8;8;Single;0;3
+03/06/2024;18;19;Female;High School;Norway;Amelia Karim;5;Instagram;Yes;5,7;5;In Relationship;3;8
+17/01/2024;19;21;Male;Undergraduate;Denmark;Lucia Kato;3,5;Facebook;No;6,7;7;Single;1;5
+01/05/2024;20;20;Female;Undergraduate;Netherlands;William Kato;4,7;Snapchat;Yes;5,9;6;Complicated;3;7
+19/11/2024;21;18;Male;High School;Belgium;Harper Anderson;5,3;TikTok;Yes;5,5;5;Single;4;8
+03/09/2024;22;23;Female;Graduate;Switzerland;Sneha Watanabe;2,5;LinkedIn;No;7,3;8;In Relationship;1;4
+06/04/2024;23;19;Male;Undergraduate;Austria;Evelyn Martin;4,9;Instagram;Yes;5,8;6;Complicated;3;7
+05/05/2024;24;20;Female;Undergraduate;Portugal;Vikram Anderson;5,7;TikTok;Yes;5,4;5;Single;4;8
+11/05/2024;25;22;Male;Graduate;Greece;Valentina Aziz;3,2;Facebook;No;6,9;7;In Relationship;2;5
+23/10/2024;26;19;Female;High School;Ireland;Ava Harris;6,1;Instagram;Yes;5,2;5;Complicated;4;9
+29/07/2024;27;21;Male;Undergraduate;New Zealand;Diego Patel;3,8;YouTube;No;6,6;7;Single;1;5
+17/07/2024;28;20;Female;Undergraduate;Singapore;Charlotte Davis;4,4;TikTok;Yes;5,9;6;In Relationship;3;7
+08/01/2024;29;24;Male;Graduate;Malaysia;Diego Gupta;2,2;LinkedIn;No;7,4;8;Single;0;3
+13/11/2024;30;19;Female;High School;Thailand;Isabella Taylor;5,9;Instagram;Yes;5,3;5;Complicated;4;8
+20/10/2024;31;21;Male;Undergraduate;Vietnam;Ali Johnson;3,6;Facebook;No;6,7;7;Single;1;5
+29/06/2024;32;20;Female;Undergraduate;Philippines;Lucia Sato;4,8;Snapchat;Yes;5,7;6;In Relationship;3;7
+13/11/2024;33;18;Male;High School;Indonesia;Elijah Aziz;5,4;TikTok;Yes;5,4;5;Complicated;4;8
+11/02/2024;34;23;Female;Graduate;Taiwan;Elijah Kobayashi;2,6;LinkedIn;No;7,2;8;Single;1;4
+25/04/2024;35;19;Male;Undergraduate;Hong Kong;Diya Kobayashi;4,7;Instagram;Yes;5,8;6;In Relationship;3;7
+10/08/2024;36;20;Female;Undergraduate;Turkey;Sofia Suzuki;5,6;TikTok;Yes;5,5;5;Complicated;4;8
+06/04/2024;37;22;Male;Graduate;Israel;Rohan Hamdan;3,1;Facebook;No;6,8;7;Single;1;5
+19/09/2024;38;19;Female;High School;UAE;Riku Watanabe;6,2;Instagram;Yes;5,1;5;In Relationship;4;9
+03/06/2024;39;21;Male;Undergraduate;Egypt;Charlotte Karim;3,9;YouTube;No;6,5;7;Complicated;2;6
+26/04/2024;40;20;Female;Undergraduate;Morocco;Aoi Fahd;4,5;TikTok;Yes;5,8;6;Single;3;7
+18/09/2024;41;24;Male;Graduate;South Africa;Liam Karim;2,3;LinkedIn;No;7,3;8;In Relationship;1;4
+17/08/2024;42;19;Female;High School;Nigeria;James Saleh;5,8;Instagram;Yes;5,4;5;Complicated;4;8
+07/07/2024;43;21;Male;Undergraduate;Kenya;Mei Sato;3,7;Facebook;No;6,6;7;Single;2;5
+25/07/2024;44;20;Female;Undergraduate;Ghana;Diya Taylor;4,6;Snapchat;Yes;5,7;6;In Relationship;3;7
+07/02/2024;45;18;Male;High School;Argentina;Charlotte Thomas;5,5;TikTok;Yes;5,3;5;Single;4;8
+09/07/2024;46;23;Female;Graduate;Chile;Riku Jain;2,7;LinkedIn;No;7,1;8;Complicated;1;4
+27/11/2024;47;19;Male;Undergraduate;Colombia;James Hamdan;4,8;Instagram;Yes;5,9;6;In Relationship;3;7
+14/06/2024;48;20;Female;Undergraduate;Peru;Ananya Chopra;5,5;TikTok;Yes;5,6;5;Single;4;8
+15/04/2024;49;22;Male;Graduate;Venezuela;Sara Takahashi;3,3;Facebook;No;6,7;7;In Relationship;2;5
+13/04/2024;50;19;Female;High School;Ecuador;Amelia Santos;6,3;Instagram;Yes;5,2;5;Complicated;4;9
+14/10/2024;51;21;Male;Undergraduate;Uruguay;Noah Gupta;3,8;YouTube;No;6,4;7;Single;2;6
+29/07/2024;52;20;Female;Undergraduate;Paraguay;Elijah Watanabe;4,7;TikTok;Yes;5,8;6;In Relationship;3;7
+04/12/2024;53;24;Male;Graduate;Bolivia;Diego Thomas;2,4;LinkedIn;No;7,2;8;Complicated;1;4
+13/09/2024;54;19;Female;High School;Costa Rica;Liam Costa;5,7;Instagram;Yes;5,5;5;Single;4;8
+02/10/2024;55;21;Male;Undergraduate;Panama;Lucia Almeida;3,6;Facebook;No;6,5;7;In Relationship;2;5
+02/11/2024;56;20;Female;Undergraduate;Jamaica;Sofia Kapoor;4,9;Snapchat;Yes;5,6;6;Complicated;3;7
+27/06/2024;57;18;Male;High School;Trinidad;Amelia Reddy;5,6;TikTok;Yes;5,2;5;Single;4;8
+20/04/2024;58;23;Female;Graduate;Bahamas;Haruto Santos;2,8;LinkedIn;No;7;8;In Relationship;1;4
+26/06/2024;59;19;Male;Undergraduate;Iceland;Sara Hernandez;4,6;Instagram;Yes;5,9;6;Complicated;3;7
+01/03/2024;60;20;Female;Undergraduate;Finland;Sneha Sato;5,4;TikTok;Yes;5,7;5;Single;4;8
+29/06/2024;61;22;Male;Graduate;Poland;Yuki Nasser;3,1;Facebook;No;7,1;7;Single;1;5
+23/01/2024;62;19;Female;Undergraduate;Romania;Sneha Ali;5,6;Instagram;Yes;5,6;5;In Relationship;3;8
+06/05/2024;63;20;Male;Undergraduate;Hungary;Oliver Hussein;4,2;TikTok;Yes;6;6;Complicated;3;7
+13/09/2024;64;18;Female;High School;Czech Republic;Isabella Khaled;6,1;Snapchat;Yes;5,2;4;Single;4;9
+14/01/2024;65;23;Male;Graduate;Slovakia;Minato Farouk;2,3;LinkedIn;No;7,4;8;In Relationship;1;3
+12/11/2024;66;21;Female;Undergraduate;Croatia;Omar Harris;4,8;Instagram;Yes;5,8;6;Single;3;7
+01/06/2024;67;20;Male;Undergraduate;Serbia;Sneha Smith;3,9;YouTube;No;6,5;7;Complicated;2;6
+24/05/2024;68;19;Female;High School;Slovenia;Amit Ali;5,7;TikTok;Yes;5,4;5;In Relationship;4;8
+28/01/2024;69;22;Male;Graduate;Bulgaria;Noah Wilson;2,8;LinkedIn;No;7,2;8;Single;1;4
+18/07/2024;70;20;Female;Undergraduate;Estonia;Alexander Reddy;4,5;Instagram;Yes;5,9;6;Complicated;3;7
+05/12/2024;71;18;Male;High School;Latvia;Mia Saleh;5,4;Snapchat;Yes;5,5;5;Single;4;8
+12/03/2024;72;21;Female;Graduate;Lithuania;Amelia Jain;3,2;Facebook;No;6,8;7;In Relationship;2;5
+23/02/2024;73;19;Male;Undergraduate;Ukraine;Ali Saleh;4,9;TikTok;Yes;5,7;6;Complicated;3;7
+23/04/2024;74;20;Female;Undergraduate;Moldova;Camila Tanaka;5,8;Instagram;Yes;5,3;5;Single;4;8
+26/10/2024;75;23;Male;Graduate;Belarus;Raj Martinez;2,5;LinkedIn;No;7,3;8;In Relationship;1;4
+31/05/2024;76;21;Female;Undergraduate;Kazakhstan;Arjun Johnson;4,6;Snapchat;Yes;5,8;6;Single;3;7
+10/10/2024;77;19;Male;High School;Uzbekistan;Sofia Kato;5,5;TikTok;Yes;5,4;5;Complicated;4;8
+04/01/2024;78;22;Female;Graduate;Kyrgyzstan;Yuki Martin;2,9;Facebook;No;7;7;In Relationship;2;5
+25/06/2024;79;20;Male;Undergraduate;Tajikistan;Henry Karim;4,7;YouTube;Yes;5,9;6;Single;3;7
+11/08/2024;80;18;Female;High School;Armenia;Raj Takahashi;5,9;Instagram;Yes;5,2;5;Complicated;4;9
+10/02/2024;81;21;Male;Graduate;Georgia;Sophia Sharma;3;LinkedIn;No;7,1;8;In Relationship;1;4
+16/11/2024;82;19;Female;Undergraduate;Azerbaijan;Juan Kapoor;4,8;TikTok;Yes;5,7;6;Single;3;7
+24/06/2024;83;20;Male;Undergraduate;Cyprus;Carlos Santos;3,8;Facebook;No;6,6;7;Complicated;2;6
+03/12/2024;84;22;Female;Graduate;Malta;Khalid Kumar;2,7;LinkedIn;No;7,2;8;In Relationship;1;4
+01/12/2024;85;18;Male;High School;Luxembourg;Mateo Saleh;5,6;Snapchat;Yes;5,3;5;Single;4;8
+01/02/2024;86;21;Female;Undergraduate;Monaco;Alexander Taylor;4,5;Instagram;Yes;5,8;6;Complicated;3;7
+16/02/2024;87;19;Male;High School;Andorra;Ren Kumar;5,3;TikTok;Yes;5,5;5;In Relationship;4;8
+02/03/2024;88;23;Female;Graduate;San Marino;Hassan Hamdan;2,6;LinkedIn;No;7,3;8;Single;1;4
+29/10/2024;89;20;Male;Undergraduate;Vatican City;Mateo Mehta;4,4;YouTube;Yes;6;6;Complicated;3;7
+26/04/2024;90;18;Female;High School;Liechtenstein;Alexander Wilson;5,8;Instagram;Yes;5,2;5;Single;4;9
+11/08/2024;91;22;Male;Graduate;Montenegro;Amit Gupta;2,9;Facebook;No;7;7;In Relationship;2;5
+12/09/2024;92;19;Female;Undergraduate;Albania;Evelyn Costa;4,7;TikTok;Yes;5,8;6;Complicated;3;7
+09/08/2024;93;21;Male;Undergraduate;North Macedonia;Liam Martinez;3,7;Snapchat;No;6,5;7;Single;2;6
+19/09/2024;94;20;Female;High School;Kosovo;Minato Saleh;5,5;Instagram;Yes;5,4;5;In Relationship;4;8
+28/02/2024;95;23;Male;Graduate;Bosnia;Aarav Johnson;2,4;LinkedIn;No;7,4;8;Complicated;1;4
+27/12/2024;96;19;Female;Undergraduate;Qatar;Sneha Thomas;4,9;TikTok;Yes;5,7;6;Single;3;7
+23/01/2024;97;18;Male;High School;Kuwait;Emma Khaled;5,7;Snapchat;Yes;5,3;5;In Relationship;4;8
+01/06/2024;98;22;Female;Graduate;Bahrain;Lucas Singh;2,8;LinkedIn;No;7,1;8;Complicated;1;4
+25/06/2024;99;20;Male;Undergraduate;Oman;Sophia Ito;4,6;Instagram;Yes;5,9;6;Single;3;7
+22/11/2024;100;21;Female;Undergraduate;Jordan;Priya Singh;5,4;TikTok;Yes;5,5;5;In Relationship;4;8
+26/11/2024;101;19;Male;High School;Lebanon;Aarav Anderson;5,8;YouTube;Yes;5,2;5;Complicated;4;9
+26/11/2024;102;23;Female;Graduate;Iraq;Yuki Takahashi;2,5;LinkedIn;No;7,3;8;Single;1;4
+21/06/2024;103;20;Male;Undergraduate;Yemen;Amit Suzuki;4,7;Facebook;Yes;5,8;6;In Relationship;3;7
+08/10/2024;104;18;Female;High School;Syria;Ava Davis;5,6;Instagram;Yes;5,4;5;Single;4;8
+30/04/2024;105;22;Male;Graduate;Afghanistan;Pedro Farouk;2,9;LinkedIn;No;7;7;Complicated;2;5
+29/03/2024;106;19;Female;Undergraduate;Pakistan;Olivia Gupta;4,8;TikTok;Yes;5,7;6;In Relationship;3;7
+11/08/2024;107;21;Male;Undergraduate;Nepal;Mohamed Ali;3,8;YouTube;No;6,6;7;Single;2;6
+08/03/2024;108;20;Female;High School;Bhutan;Hana Farouk;5,5;Snapchat;Yes;5,5;5;Complicated;4;8
+24/04/2024;109;23;Male;Graduate;Sri Lanka;Hiroshi Miller;2,6;LinkedIn;No;7,2;8;In Relationship;1;4
+26/10/2024;110;19;Female;Undergraduate;Maldives;Alexander Sharma;4,9;Instagram;Yes;5,8;6;Single;3;7
+20/05/2024;111;20;Male;Undergraduate;Bangladesh;Carlos Hussein;6,1;Instagram;Yes;6,2;5;Single;4;8
+03/11/2024;112;21;Female;Undergraduate;India;Riku Nasser;5,8;TikTok;Yes;5,9;6;In Relationship;3;7
+24/04/2024;113;19;Male;Undergraduate;Nepal;Pedro Harris;4,9;Facebook;No;7,1;7;Single;2;5
+21/05/2024;114;22;Female;Graduate;Pakistan;Yuki Brown;5,5;Instagram;Yes;6;5;Single;4;8
+15/04/2024;115;20;Male;Undergraduate;Sri Lanka;Arjun Kato;5,2;TikTok;Yes;6,3;6;In Relationship;3;7
+02/02/2024;116;19;Female;Undergraduate;Maldives;Charlotte Takahashi;4,8;Instagram;No;7,2;8;Single;2;5
+08/04/2024;117;21;Male;Graduate;Bangladesh;Raj White;6;Facebook;Yes;5,8;5;In Relationship;4;8
+16/04/2024;118;20;Female;Undergraduate;India;Emma Kumar;5,7;Instagram;Yes;6,1;6;Single;3;7
+21/12/2024;119;22;Male;Graduate;Nepal;Arjun Taylor;4,7;TikTok;No;7,3;7;Single;2;5
+02/03/2024;120;19;Female;Undergraduate;Pakistan;Haruto Farouk;5,4;Instagram;Yes;6,2;5;In Relationship;4;8
+13/07/2024;121;20;Male;Undergraduate;Sri Lanka;Mei Lopez;5,9;Facebook;Yes;5,9;6;Single;3;7
+05/09/2024;122;21;Female;Graduate;Maldives;Mohamed Santos;4,6;Instagram;No;7,4;8;In Relationship;2;5
+29/06/2024;123;19;Male;Undergraduate;Bangladesh;Riku Tanaka;5,3;TikTok;Yes;6,3;5;Single;4;8
+20/10/2024;124;22;Female;Graduate;India;Emma Thomas;5,8;Instagram;Yes;5,8;6;In Relationship;3;7
+16/11/2024;125;20;Male;Undergraduate;Nepal;William White;4,5;Facebook;No;7,5;7;Single;2;5
+15/12/2024;126;21;Female;Graduate;Pakistan;Mia Anderson;5,2;Instagram;Yes;6,4;5;In Relationship;4;8
+20/12/2024;127;19;Male;Undergraduate;Sri Lanka;Elijah Saleh;5,7;TikTok;Yes;5,7;6;Single;3;7
+19/10/2024;128;20;Female;Undergraduate;Maldives;Haruto Hernandez;4,4;Instagram;No;7,6;8;In Relationship;2;5
+04/10/2024;129;22;Male;Graduate;Bangladesh;William Hamdan;5,1;Facebook;Yes;6,5;5;Single;4;8
+23/05/2024;130;21;Female;Graduate;India;Raj Johnson;5,6;Instagram;Yes;5,6;6;In Relationship;3;7
+05/01/2024;131;19;Male;Undergraduate;Nepal;Valentina Watanabe;4,3;TikTok;No;7,7;7;Single;2;5
+18/02/2024;132;20;Female;Undergraduate;Pakistan;Mei Johnson;5;Instagram;Yes;6,6;5;In Relationship;4;8
+29/11/2024;133;22;Male;Graduate;Sri Lanka;Ali Santos;5,5;Facebook;Yes;5,5;6;Single;3;7
+25/03/2024;134;21;Female;Graduate;Maldives;Isabella Hernandez;4,2;Instagram;No;7,8;8;In Relationship;2;5
+17/12/2024;135;19;Male;Undergraduate;Bangladesh;Lucas Ali;4,9;TikTok;Yes;6,7;5;Single;4;8
+25/01/2024;136;20;Female;Undergraduate;India;Amit Santos;5,4;Instagram;Yes;5,4;6;In Relationship;3;7
+16/11/2024;137;22;Male;Graduate;Nepal;Amit Watanabe;4,1;Facebook;No;7,9;7;Single;2;5
+20/02/2024;138;21;Female;Graduate;Pakistan;Ali Chopra;4,8;Instagram;Yes;6,8;5;In Relationship;4;8
+27/12/2024;139;19;Male;Undergraduate;Sri Lanka;Rohan Martinez;5,3;TikTok;Yes;5,3;6;Single;3;7
+22/10/2024;140;20;Female;Undergraduate;Maldives;Sora Chopra;4;Instagram;No;8;8;In Relationship;2;5
+10/06/2024;141;22;Male;Graduate;Bangladesh;Nadia Davis;4,7;Facebook;Yes;6,9;5;Single;4;8
+17/04/2024;142;21;Female;Graduate;India;Sara Watanabe;5,2;Instagram;Yes;5,2;6;In Relationship;3;7
+18/01/2024;143;19;Male;Undergraduate;Nepal;Vikram Santos;3,9;TikTok;No;8,1;7;Single;2;5
+29/08/2024;144;20;Female;Undergraduate;Pakistan;Mohamed White;4,6;Instagram;Yes;7;5;In Relationship;4;8
+06/02/2024;145;22;Male;Graduate;Sri Lanka;Evelyn Garcia;5,1;Facebook;Yes;5,1;6;Single;3;7
+18/01/2024;146;21;Female;Graduate;Maldives;Alexander White;3,8;Instagram;No;8,2;8;In Relationship;2;5
+15/01/2024;147;19;Male;Undergraduate;Bangladesh;Diego Fahd;4,5;TikTok;Yes;7,1;5;Single;4;8
+07/04/2024;148;20;Female;Undergraduate;India;Hana Brown;5;Instagram;Yes;5;6;In Relationship;3;7
+11/05/2024;149;22;Male;Graduate;Nepal;Lucia Farouk;3,7;Facebook;No;8,3;7;Single;2;5
+27/05/2024;150;21;Female;Graduate;Pakistan;Camila Kato;4,4;Instagram;Yes;7,2;5;In Relationship;4;8
+12/11/2024;151;19;Male;Undergraduate;Sri Lanka;Lucas Wilson;4,9;TikTok;Yes;4,9;6;Single;3;7
+20/12/2024;152;20;Female;Undergraduate;Maldives;Sara Gupta;3,6;Instagram;No;8,4;8;In Relationship;2;5
+13/01/2024;153;22;Male;Graduate;Bangladesh;Amelia Kobayashi;4,3;Facebook;Yes;7,3;5;Single;4;8
+20/04/2024;154;21;Female;Graduate;India;Carlos Yamamoto;4,8;Instagram;Yes;4,8;6;In Relationship;3;7
+01/02/2024;155;19;Male;Undergraduate;Nepal;Mia Costa;3,5;TikTok;No;8,5;7;Single;2;5
+03/03/2024;156;20;Female;Undergraduate;Pakistan;Samir Suzuki;4,2;Instagram;Yes;7,4;5;In Relationship;4;8
+16/04/2024;157;22;Male;Graduate;Sri Lanka;Sneha Kobayashi;4,7;Facebook;Yes;4,7;6;Single;3;7
+24/03/2024;158;21;Female;Graduate;Maldives;Ren Mehta;3,4;Instagram;No;8,6;8;In Relationship;2;5
+08/08/2024;159;19;Male;Undergraduate;Bangladesh;Mei Hernandez;4,1;TikTok;Yes;7,5;5;Single;4;8
+24/11/2024;160;20;Female;Undergraduate;India;Oliver Thomas;4,6;Instagram;Yes;4,6;6;In Relationship;3;7
+02/03/2024;161;19;Female;Undergraduate;Bangladesh;Alexander Khaled;5,3;Instagram;Yes;6,1;5;Single;3;7
+11/01/2024;162;21;Male;Graduate;India;Khalid Brown;4,8;Facebook;No;7,2;7;In Relationship;2;6
+25/09/2024;163;20;Female;Undergraduate;Nepal;Harper Mehta;5,5;TikTok;Yes;5,9;6;Single;4;8
+25/03/2024;164;22;Male;Graduate;Pakistan;Arjun Singh;4,7;Instagram;Yes;6,3;5;In Relationship;3;7
+31/01/2024;165;19;Female;Undergraduate;Sri Lanka;Hassan Yamamoto;5,1;Facebook;No;7;7;Single;2;5
+20/07/2024;166;21;Male;Graduate;Maldives;Sora Kobayashi;5,4;TikTok;Yes;6;6;In Relationship;4;8
+31/08/2024;167;20;Female;Undergraduate;Bangladesh;Valentina Jain;4,9;Instagram;Yes;6,4;5;Single;3;7
+17/06/2024;168;22;Male;Graduate;India;Charlotte Ali;5,2;Facebook;No;7,1;7;In Relationship;2;6
+12/03/2024;169;19;Female;Undergraduate;Nepal;Ren White;5,6;TikTok;Yes;5,8;6;Single;4;8
+15/09/2024;170;21;Male;Graduate;Pakistan;Sneha Kumar;4,6;Instagram;Yes;6,5;5;In Relationship;3;7
+17/08/2024;171;20;Female;Undergraduate;Sri Lanka;Ava Hamdan;5;Facebook;No;7,3;7;Single;2;5
+30/12/2024;172;22;Male;Graduate;Maldives;Pedro Tanaka;5,3;TikTok;Yes;5,7;6;In Relationship;4;8
+21/05/2024;173;19;Female;Undergraduate;Bangladesh;Ananya Jain;4,8;Instagram;Yes;6,6;5;Single;3;7
+07/12/2024;174;21;Male;Graduate;India;Sneha Hussein;5,1;Facebook;No;7,4;7;In Relationship;2;6
+02/05/2024;175;20;Female;Undergraduate;Nepal;Sora Nasser;5,7;TikTok;Yes;5,6;6;Single;4;8
+09/02/2024;176;22;Male;Graduate;Pakistan;Sakura Hussein;4,5;Instagram;Yes;6,7;5;In Relationship;3;7
+13/11/2024;177;19;Female;Undergraduate;Sri Lanka;Yuki Jain;4,9;Facebook;No;7,5;7;Single;2;5
+18/04/2024;178;21;Male;Graduate;Maldives;Yuki Farouk;5,2;TikTok;Yes;5,5;6;In Relationship;4;8
+30/12/2024;179;20;Female;Undergraduate;Bangladesh;Sofia Hussein;4,7;Instagram;Yes;6,8;5;Single;3;7
+26/03/2024;180;22;Male;Graduate;India;Mateo Martin;5;Facebook;No;7,6;7;In Relationship;2;6
+04/06/2024;181;19;Female;Undergraduate;Nepal;Mohamed Suzuki;5,8;TikTok;Yes;5,4;6;Single;4;8
+20/05/2024;182;21;Male;Graduate;Pakistan;William Nasser;4,4;Instagram;Yes;6,9;5;In Relationship;3;7
+14/05/2024;183;20;Female;Undergraduate;Sri Lanka;Youssef Ali;4,8;Facebook;No;7,7;7;Single;2;5
+14/08/2024;184;22;Male;Graduate;Maldives;Isabella Gupta;5,1;TikTok;Yes;5,3;6;In Relationship;4;8
+05/07/2024;185;19;Female;Undergraduate;Bangladesh;Nadia Kumar;4,6;Instagram;Yes;7;5;Single;3;7
+14/10/2024;186;21;Male;Graduate;India;Arjun Patel;4,9;Facebook;No;7,8;7;In Relationship;2;6
+09/03/2024;187;20;Female;Undergraduate;Nepal;Henry Jain;5,9;TikTok;Yes;5,2;6;Single;4;8
+12/10/2024;188;22;Male;Graduate;Pakistan;Omar Taylor;4,3;Instagram;Yes;7,1;5;In Relationship;3;7
+26/03/2024;189;19;Female;Undergraduate;Sri Lanka;Aarav Hussein;4,7;Facebook;No;7,9;7;Single;2;5
+03/11/2024;190;21;Male;Graduate;Maldives;Priya Kato;5;TikTok;Yes;5,1;6;In Relationship;4;8
+29/07/2024;191;20;Female;Undergraduate;Bangladesh;Charlotte Saleh;4,5;Instagram;Yes;7,2;5;Single;3;7
+11/03/2024;192;22;Male;Graduate;India;Riku Almeida;4,8;Facebook;No;8;7;In Relationship;2;6
+10/09/2024;193;19;Female;Undergraduate;Nepal;Camila Almeida;6;TikTok;Yes;5;6;Single;4;8
+23/12/2024;194;21;Male;Graduate;Pakistan;Mateo Sharma;4,2;Instagram;Yes;7,3;5;In Relationship;3;7
+24/03/2024;195;20;Female;Undergraduate;Sri Lanka;Sneha Costa;4,6;Facebook;No;8,1;7;Single;2;5
+01/04/2024;196;22;Male;Graduate;Maldives;Ava Fahd;4,9;TikTok;Yes;4,9;6;In Relationship;4;8
+20/01/2024;197;19;Female;Undergraduate;Bangladesh;Noah Reddy;4,4;Instagram;Yes;7,4;5;Single;3;7
+13/06/2024;198;21;Male;Graduate;India;Sneha Sharma;4,7;Facebook;No;8,2;7;In Relationship;2;6
+04/01/2024;199;20;Female;Undergraduate;Nepal;Yuki Singh;6,1;TikTok;Yes;4,8;6;Single;4;8
+06/10/2024;200;22;Male;Graduate;Pakistan;Minato Kato;4,1;Instagram;Yes;7,5;5;In Relationship;3;7
+23/04/2024;201;19;Female;Undergraduate;Sri Lanka;Sneha Karim;4,5;Facebook;No;8,3;7;Single;2;5
+01/02/2024;202;21;Male;Graduate;Maldives;Riku Mehta;4,8;TikTok;Yes;4,7;6;In Relationship;4;8
+05/11/2024;203;20;Female;Undergraduate;Bangladesh;Henry Patel;4,3;Instagram;Yes;7,6;5;Single;3;7
+22/08/2024;204;22;Male;Graduate;India;Juan Mehta;4,6;Facebook;No;8,4;7;In Relationship;2;6
+01/06/2024;205;19;Female;Undergraduate;Nepal;Alexander Martin;6,2;TikTok;Yes;4,6;6;Single;4;8
+01/05/2024;206;21;Male;Graduate;Pakistan;Samir Mehta;4;Instagram;Yes;7,7;5;In Relationship;3;7
+08/07/2024;207;20;Female;Undergraduate;Sri Lanka;Sophia Sato;4,4;Facebook;No;8,5;7;Single;2;5
+18/04/2024;208;22;Male;Graduate;Maldives;Sara Kapoor;4,7;TikTok;Yes;4,5;6;In Relationship;4;8
+29/08/2024;209;19;Female;Undergraduate;Bangladesh;Valentina Anderson;4,2;Instagram;Yes;7,8;5;Single;3;7
+14/05/2024;210;21;Male;Graduate;India;Oliver Almeida;4,5;Facebook;No;8,6;7;In Relationship;2;6
+08/06/2024;211;20;Female;Undergraduate;Nepal;Aoi White;6,3;TikTok;Yes;4,4;6;Single;4;8
+15/03/2024;212;22;Male;Graduate;Pakistan;Khalid Santos;3,9;Instagram;Yes;7,9;5;In Relationship;3;7
+03/03/2024;213;19;Female;Undergraduate;Sri Lanka;Ava Hernandez;4,3;Facebook;No;8,7;7;Single;2;5
+21/04/2024;214;21;Male;Graduate;Maldives;Amelia Garcia;4,6;TikTok;Yes;4,3;6;In Relationship;4;8
+01/02/2024;215;20;Female;Undergraduate;Bangladesh;Youssef Almeida;4,1;Instagram;Yes;8;5;Single;3;7
+01/03/2024;216;22;Male;Graduate;India;Noah Martin;4,4;Facebook;No;8,8;7;In Relationship;2;6
+02/12/2024;217;19;Female;Undergraduate;Nepal;Lucas Costa;6,4;TikTok;Yes;4,2;6;Single;4;8
+23/05/2024;218;21;Male;Graduate;Pakistan;Charlotte Costa;3,8;Instagram;Yes;8,1;5;In Relationship;3;7
+09/01/2024;219;20;Female;Undergraduate;Sri Lanka;Riku Takahashi;4,2;Facebook;No;8,9;7;Single;2;5
+31/05/2024;220;22;Male;Graduate;Maldives;Lucas Anderson;4,5;TikTok;Yes;4,1;6;In Relationship;4;8
+19/05/2024;221;19;Female;Undergraduate;USA;Carlos Taylor;6,5;Instagram;Yes;6;5;Single;4;9
+07/03/2024;222;21;Male;Graduate;UK;Hana Kobayashi;5,8;TikTok;Yes;6,5;6;In Relationship;3;7
+26/11/2024;223;20;Female;Undergraduate;Australia;Nadia Silva;4,5;Instagram;No;7,5;8;Single;2;5
+18/10/2024;224;22;Male;Graduate;Germany;Arjun Kobayashi;4,2;Facebook;No;7,8;7;In Relationship;2;4
+14/06/2024;225;19;Female;Undergraduate;Japan;Amelia Yamamoto;3,8;LINE;No;7,9;8;Single;1;3
+14/05/2024;226;21;Male;Graduate;Italy;Raj Wilson;5,5;Instagram;Yes;6,8;6;Single;3;7
+27/08/2024;227;20;Female;Undergraduate;South Korea;Henry Farouk;5,2;KakaoTalk;Yes;6,5;6;In Relationship;3;6
+16/05/2024;228;22;Male;Graduate;Russia;Amelia Lopez;4,8;VKontakte;No;7,2;7;Single;2;5
+06/02/2024;229;19;Female;Undergraduate;USA;Mohamed Kobayashi;7;TikTok;Yes;5,8;4;In Relationship;4;9
+22/12/2024;230;21;Male;Graduate;UK;Yuki Reddy;5,5;Instagram;Yes;6,7;6;Single;3;7
+09/11/2024;231;20;Female;Undergraduate;Australia;Yuki Saleh;4,7;Facebook;No;7,4;7;In Relationship;2;5
+08/04/2024;232;22;Male;Graduate;Germany;Aarav Kobayashi;4;Instagram;No;7,9;8;Single;1;4
+22/09/2024;233;19;Female;Undergraduate;Japan;Ren Harris;3,5;LINE;No;8;8;Single;1;3
+12/05/2024;234;21;Male;Graduate;Italy;James Suzuki;5,7;TikTok;Yes;6,5;5;In Relationship;3;8
+17/03/2024;235;20;Female;Undergraduate;South Korea;Amit Tanaka;5;KakaoTalk;Yes;6,8;6;Single;3;6
+24/04/2024;236;22;Male;Graduate;Russia;Mei Takahashi;4,5;VKontakte;No;7,4;7;In Relationship;2;5
+20/03/2024;237;19;Female;Undergraduate;USA;Maria Martin;6,8;Instagram;Yes;5,9;4;Single;4;9
+18/08/2024;238;21;Male;Graduate;UK;Amelia Saleh;5,6;Facebook;Yes;6,6;6;In Relationship;3;7
+25/03/2024;239;20;Female;Undergraduate;Australia;Sara Brown;4,6;Instagram;No;7,3;7;Single;2;5
+18/06/2024;240;22;Male;Graduate;Germany;Sakura Kato;4,1;Facebook;No;7,7;8;In Relationship;2;4
+16/06/2024;241;19;Female;Undergraduate;Japan;Lucas Harris;3,7;LINE;No;7,8;8;Single;1;3
+02/11/2024;242;21;Male;Graduate;Italy;Noah Thomas;5,4;Instagram;Yes;6,7;5;Single;3;7
+19/03/2024;243;20;Female;Undergraduate;South Korea;Lucas Suzuki;5,1;KakaoTalk;Yes;6,6;6;In Relationship;3;6
+06/07/2024;244;22;Male;Graduate;Russia;Riku Saleh;4,7;VKontakte;No;7,3;7;Single;2;5
+27/10/2024;245;19;Female;Undergraduate;USA;Maria Hussein;6,9;TikTok;Yes;5,7;4;In Relationship;4;9
+20/07/2024;246;21;Male;Graduate;UK;Vikram Nasser;5,7;Instagram;Yes;6,4;6;Single;3;7
+11/06/2024;247;20;Female;Undergraduate;Australia;Sofia Thomas;4,8;Facebook;No;7,2;7;In Relationship;2;5
+08/09/2024;248;22;Male;Graduate;Germany;Charlotte Suzuki;3,9;Instagram;No;7,8;8;Single;1;4
+31/10/2024;249;19;Female;Undergraduate;Japan;Minato Jain;3,6;LINE;No;8,1;8;Single;1;3
+10/11/2024;250;21;Male;Graduate;Italy;Hassan Aziz;5,6;TikTok;Yes;6,6;5;In Relationship;3;8
+08/08/2024;251;20;Female;Undergraduate;South Korea;Mei Suzuki;4,9;KakaoTalk;Yes;6,9;6;Single;3;6
+23/05/2024;252;22;Male;Graduate;Russia;Sora Sharma;4,6;VKontakte;No;7,5;7;In Relationship;2;5
+18/12/2024;253;19;Female;Undergraduate;USA;Mei Davis;6,7;Instagram;Yes;5,8;4;Single;4;9
+23/04/2024;254;21;Male;Graduate;UK;Ali Anderson;5,4;Facebook;Yes;6,5;6;In Relationship;3;7
+28/08/2024;255;20;Female;Undergraduate;Australia;Diego Khaled;4,4;Instagram;No;7,4;7;Single;2;5
+06/07/2024;256;22;Male;Graduate;Germany;Ali Kapoor;4;Facebook;No;7,6;8;In Relationship;2;4
+10/11/2024;257;19;Female;Undergraduate;Japan;Charlotte Silva;3,4;LINE;No;8,2;8;Single;1;3
+23/04/2024;258;21;Male;Graduate;Italy;Diya Singh;5,3;Instagram;Yes;6,8;5;Single;3;7
+03/07/2024;259;20;Female;Undergraduate;South Korea;Khalid Hussein;5;KakaoTalk;Yes;6,7;6;In Relationship;3;6
+12/09/2024;260;22;Male;Graduate;Russia;Charlotte Taylor;4,4;VKontakte;No;7,6;7;Single;2;5
+19/07/2024;261;19;Female;Undergraduate;USA;Juan Anderson;6,6;TikTok;Yes;5,6;4;In Relationship;4;9
+29/12/2024;262;21;Male;Graduate;UK;Mateo Hussein;5,3;Instagram;Yes;6,3;6;Single;3;7
+05/05/2024;263;20;Female;Undergraduate;Australia;Lucas Takahashi;4,3;Facebook;No;7,5;7;In Relationship;2;5
+22/04/2024;264;22;Male;Graduate;Germany;Rohan Saleh;3,8;Instagram;No;7,7;8;Single;1;4
+24/11/2024;265;19;Female;Undergraduate;Japan;Isabella Nakamura;3,3;LINE;No;8,3;8;Single;1;3
+27/01/2024;266;21;Male;Graduate;Italy;Maria Chopra;5,2;TikTok;Yes;6,9;5;In Relationship;3;8
+21/01/2024;267;20;Female;Undergraduate;South Korea;Mohamed Singh;4,8;KakaoTalk;Yes;7;6;Single;3;6
+12/05/2024;268;22;Male;Graduate;Russia;Oliver Kumar;4,3;VKontakte;No;7,7;7;In Relationship;2;5
+29/03/2024;269;19;Female;Undergraduate;USA;James Wilson;6,4;Instagram;Yes;5,7;4;Single;4;9
+15/02/2024;270;21;Male;Graduate;UK;Charlotte Nasser;5,2;Facebook;Yes;6,4;6;In Relationship;3;7
+01/06/2024;271;20;Female;Undergraduate;Australia;Sophia Martinez;4,5;Instagram;No;7,3;7;Single;2;5
+21/11/2024;272;22;Male;Graduate;Germany;Priya Tanaka;3,7;Facebook;No;7,8;8;In Relationship;1;4
+07/02/2024;273;19;Female;Undergraduate;Japan;Mateo Kapoor;3,2;LINE;No;8,4;8;Single;1;3
+03/07/2024;274;21;Male;Graduate;Italy;Rohan Taylor;5,4;Instagram;Yes;6,7;5;Single;3;7
+17/08/2024;275;20;Female;Undergraduate;South Korea;Vikram Martinez;4,7;KakaoTalk;Yes;7,1;6;In Relationship;3;6
+10/04/2024;276;22;Male;Graduate;Russia;Sora White;4,2;VKontakte;No;7,8;7;Single;2;5
+26/03/2024;277;19;Female;Undergraduate;USA;Lucia Kobayashi;6,6;TikTok;Yes;5,5;4;In Relationship;4;9
+19/05/2024;278;21;Male;Graduate;UK;Sofia White;5,1;Instagram;Yes;6,5;6;Single;3;7
+02/10/2024;279;20;Female;Undergraduate;Australia;Carlos Brown;4,4;Facebook;No;7,4;7;In Relationship;2;5
+23/05/2024;280;22;Male;Graduate;Germany;Evelyn Lopez;3,6;Instagram;No;7,9;8;Single;1;4
+01/07/2024;281;19;Female;Undergraduate;Japan;Sora Takahashi;3,1;LINE;No;8,5;8;Single;1;3
+13/02/2024;282;21;Male;Graduate;Italy;Sakura Santos;5,3;TikTok;Yes;6,8;5;In Relationship;3;8
+22/06/2024;283;20;Female;Undergraduate;South Korea;Diya Yamamoto;4,6;KakaoTalk;Yes;7,2;6;Single;3;6
+26/12/2024;284;22;Male;Graduate;Russia;Sofia Watanabe;4,1;VKontakte;No;7,9;7;In Relationship;2;5
+07/09/2024;285;19;Female;Undergraduate;USA;Riku Taylor;6,7;Instagram;Yes;5,4;4;Single;4;9
+14/06/2024;286;21;Male;Graduate;UK;Nadia Kapoor;5;Facebook;Yes;6,6;6;In Relationship;3;7
+15/08/2024;287;20;Female;Undergraduate;Australia;Sneha Brown;4,3;Instagram;No;7,5;7;Single;2;5
+28/11/2024;288;22;Male;Graduate;Germany;Riku Kato;3,5;Facebook;No;8;8;In Relationship;1;4
+24/05/2024;289;19;Female;Undergraduate;Japan;Khalid Farouk;3;LINE;No;8,6;8;Single;1;3
+11/01/2024;290;21;Male;Graduate;Italy;Evelyn Kapoor;5,2;Instagram;Yes;6,9;5;Single;3;7
+12/07/2024;291;20;Female;Undergraduate;South Korea;Mia Kumar;4,5;KakaoTalk;Yes;7,3;6;In Relationship;3;6
+17/02/2024;292;22;Male;Graduate;Russia;Hassan Saleh;4;VKontakte;No;8;7;Single;2;5
+27/04/2024;293;19;Female;Undergraduate;USA;Sora Ito;6,8;TikTok;Yes;5,3;4;In Relationship;4;9
+01/04/2024;294;21;Male;Graduate;UK;Valentina Tanaka;4,9;Instagram;Yes;6,7;6;Single;3;7
+19/05/2024;295;20;Female;Undergraduate;Australia;Emma Nakamura;4,2;Facebook;No;7,6;7;In Relationship;2;5
+18/03/2024;296;22;Male;Graduate;Germany;Ananya Tanaka;3,4;Instagram;No;8,1;8;Single;1;4
+04/11/2024;297;19;Female;Undergraduate;Japan;Sora Brown;2,9;LINE;No;8,7;8;Single;1;3
+01/11/2024;298;21;Male;Graduate;Italy;Isabella Sato;5,1;TikTok;Yes;7;5;In Relationship;3;8
+06/08/2024;299;20;Female;Undergraduate;South Korea;Youssef Martinez;4,4;KakaoTalk;Yes;7,4;6;Single;3;6
+01/03/2024;300;22;Male;Graduate;Russia;Hassan Wilson;3,9;VKontakte;No;8,1;7;In Relationship;2;5
+14/01/2024;301;19;Female;Undergraduate;USA;Maria Nakamura;6,9;Instagram;Yes;5,2;4;Single;4;9
+23/10/2024;302;21;Male;Graduate;UK;Nadia Patel;4,8;Facebook;Yes;6,8;6;In Relationship;3;7
+31/12/2024;303;20;Female;Undergraduate;Australia;Carlos Ali;4,1;Instagram;No;7,7;7;Single;2;5
+04/01/2024;304;22;Male;Graduate;Germany;Hana Martin;3,3;Facebook;No;8,2;8;In Relationship;1;4
+28/04/2024;305;19;Female;Undergraduate;Japan;Nadia Garcia;2,8;LINE;No;8,8;8;Single;1;3
+21/01/2024;306;21;Male;Graduate;Italy;Priya Chopra;5;Instagram;Yes;7,1;5;Single;3;7
+29/02/2024;307;20;Female;Undergraduate;South Korea;Hassan Karim;4,3;KakaoTalk;Yes;7,5;6;In Relationship;3;6
+17/01/2024;308;22;Male;Graduate;Russia;Sofia Gupta;3,8;VKontakte;No;8,2;7;Single;2;5
+07/02/2024;309;19;Female;Undergraduate;USA;Raj Kobayashi;7;TikTok;Yes;5,1;4;In Relationship;4;9
+25/02/2024;310;21;Male;Graduate;UK;James Jain;4,7;Instagram;Yes;6,9;6;Single;3;7
+15/11/2024;311;20;Female;Undergraduate;Australia;Amelia Hamdan;4;Facebook;No;7,8;7;In Relationship;2;5
+17/04/2024;312;22;Male;Graduate;Germany;Vikram Kobayashi;3,2;Instagram;No;8,3;8;Single;1;4
+29/02/2024;313;19;Female;Undergraduate;Japan;Hassan Silva;2,7;LINE;No;8,9;8;Single;1;3
+13/09/2024;314;21;Male;Graduate;Italy;Olivia Yamamoto;4,9;TikTok;Yes;7,2;5;In Relationship;3;8
+09/09/2024;315;20;Female;Undergraduate;South Korea;Evelyn Saleh;4,2;KakaoTalk;Yes;7,6;6;Single;3;6
+05/09/2024;316;22;Male;Graduate;Russia;Ren Martin;3,7;VKontakte;No;8,3;7;In Relationship;2;5
+14/02/2024;317;19;Female;Undergraduate;USA;William Takahashi;7,1;Instagram;Yes;5;4;Single;4;9
+01/06/2024;318;21;Male;Graduate;UK;Liam Santos;4,6;Facebook;Yes;7;6;In Relationship;3;7
+16/12/2024;319;20;Female;Undergraduate;Australia;Lucas Brown;3,9;Instagram;No;7,9;7;Single;2;5
+26/01/2024;320;22;Male;Graduate;Germany;Lucas Yamamoto;3,1;Facebook;No;8,4;8;In Relationship;1;4
+23/06/2024;321;19;Female;Undergraduate;Spain;Alexander Hussein;5,2;Instagram;Yes;6,8;6;Single;3;7
+21/05/2024;322;21;Male;Graduate;Denmark;Haruto Mehta;4,1;Facebook;No;7,8;8;In Relationship;2;4
+08/11/2024;323;20;Female;Undergraduate;Ireland;Elijah Martinez;5;Instagram;Yes;7;7;Single;3;6
+21/07/2024;324;22;Male;Graduate;India;Emma Martin;5,8;WhatsApp;Yes;6,5;5;In Relationship;4;8
+16/01/2024;325;19;Female;Undergraduate;Switzerland;Nadia Smith;4;Instagram;No;7,9;8;Single;2;4
+08/01/2024;326;21;Male;Graduate;Turkey;Sophia Reddy;5,5;Instagram;Yes;6,7;6;Single;3;7
+22/07/2024;327;20;Female;Undergraduate;USA;Lucas Martinez;6,8;TikTok;Yes;5,5;5;In Relationship;4;9
+07/11/2024;328;22;Male;Graduate;Mexico;Ava Hussein;5,6;WhatsApp;Yes;6,6;6;Single;3;7
+08/02/2024;329;19;Female;Undergraduate;France;Henry Brown;4,5;Instagram;No;7,5;7;In Relationship;2;5
+19/10/2024;330;21;Male;Graduate;Canada;Lucia Tanaka;5,3;Instagram;Yes;6,9;6;Single;3;7
+01/06/2024;331;20;Female;Undergraduate;Spain;Mohamed Miller;5,1;TikTok;Yes;6,7;6;Single;3;7
+09/11/2024;332;22;Male;Graduate;Denmark;Lucas Sharma;3,9;Facebook;No;7,9;8;In Relationship;2;4
+18/12/2024;333;19;Female;Undergraduate;Ireland;Carlos Nakamura;4,8;Instagram;Yes;7,1;7;Single;3;6
+11/09/2024;334;21;Male;Graduate;India;Benjamin Karim;5,9;WhatsApp;Yes;6,4;5;In Relationship;4;8
+26/10/2024;335;20;Female;Undergraduate;Switzerland;Minato Suzuki;3,8;Instagram;No;8;8;Single;2;4
+20/08/2024;336;22;Male;Graduate;Turkey;Lucia Gupta;5,4;TikTok;Yes;6,8;6;Single;3;7
+13/03/2024;337;19;Female;Undergraduate;USA;Liam Martin;6,9;Instagram;Yes;5,4;5;In Relationship;4;9
+09/08/2024;338;21;Male;Graduate;Mexico;Sara Kumar;5,7;WhatsApp;Yes;6,5;6;Single;3;7
+10/08/2024;339;20;Female;Undergraduate;France;Sora Lopez;4,4;Instagram;No;7,6;7;In Relationship;2;5
+04/12/2024;340;22;Male;Graduate;Canada;Sora Almeida;5,2;TikTok;Yes;7;6;Single;3;7
+03/11/2024;341;19;Female;Undergraduate;Spain;Valentina Mehta;5;Instagram;Yes;6,9;6;Single;3;7
+14/05/2024;342;21;Male;Graduate;Denmark;Khalid Aziz;3,8;Facebook;No;8;8;In Relationship;2;4
+03/10/2024;343;20;Female;Undergraduate;Ireland;Henry Yamamoto;4,7;TikTok;Yes;7,2;7;Single;3;6
+13/05/2024;344;22;Male;Graduate;India;Diya Patel;6;WhatsApp;Yes;6,3;5;In Relationship;4;8
+28/09/2024;345;19;Female;Undergraduate;Switzerland;Noah Takahashi;3,7;Instagram;No;8,1;8;Single;2;4
+12/06/2024;346;21;Male;Graduate;Turkey;Ava Nasser;5,3;Instagram;Yes;6,9;6;Single;3;7
+11/07/2024;347;20;Female;Undergraduate;USA;Aoi Sato;7;TikTok;Yes;5,3;5;In Relationship;4;9
+22/11/2024;348;22;Male;Graduate;Mexico;Emma Takahashi;5,8;WhatsApp;Yes;6,4;6;Single;3;7
+22/12/2024;349;19;Female;Undergraduate;France;Sakura Costa;4,3;Instagram;No;7,7;7;In Relationship;2;5
+06/11/2024;350;21;Male;Graduate;Canada;Mia Yamamoto;5,1;Instagram;Yes;7,1;6;Single;3;7
+19/09/2024;351;20;Female;Undergraduate;Spain;Mia Davis;4,9;TikTok;Yes;7;6;Single;3;7
+30/05/2024;352;22;Male;Graduate;Denmark;Aarav Sharma;3,7;Facebook;No;8,1;8;In Relationship;2;4
+03/10/2024;353;19;Female;Undergraduate;Ireland;Haruto Johnson;4,6;Instagram;Yes;7,3;7;Single;3;6
+26/03/2024;354;21;Male;Graduate;India;Samir Yamamoto;6,1;WhatsApp;Yes;6,2;5;In Relationship;4;8
+09/10/2024;355;20;Female;Undergraduate;Switzerland;Minato Anderson;3,6;Instagram;No;8,2;8;Single;2;4
+23/04/2024;356;22;Male;Graduate;Turkey;Khalid Hamdan;5,2;TikTok;Yes;7;6;Single;3;7
+19/06/2024;357;19;Female;Undergraduate;USA;Camila Suzuki;7,1;Instagram;Yes;5,2;5;In Relationship;4;9
+08/09/2024;358;21;Male;Graduate;Mexico;Raj Hamdan;5,9;WhatsApp;Yes;6,3;6;Single;3;7
+27/09/2024;359;20;Female;Undergraduate;France;Sakura Ali;4,2;Instagram;No;7,8;7;In Relationship;2;5
+05/09/2024;360;22;Male;Graduate;Canada;Mei Fahd;5;TikTok;Yes;7,2;6;Single;3;7
+20/05/2024;361;19;Female;Undergraduate;Spain;Vikram Miller;4,8;Instagram;Yes;7,1;6;Single;3;7
+11/02/2024;362;21;Male;Graduate;Denmark;Arjun Brown;3,6;Facebook;No;8,2;8;In Relationship;2;4
+05/08/2024;363;20;Female;Undergraduate;Ireland;Mateo Costa;4,5;TikTok;Yes;7,4;7;Single;3;6
+07/01/2024;364;22;Male;Graduate;India;Rohan Wilson;6,2;WhatsApp;Yes;6,1;5;In Relationship;4;8
+03/09/2024;365;19;Female;Undergraduate;Switzerland;Olivia Mehta;3,5;Instagram;No;8,3;8;Single;2;4
+14/01/2024;366;21;Male;Graduate;Turkey;Aarav Tanaka;5,1;Instagram;Yes;7,1;6;Single;3;7
+14/06/2024;367;20;Female;Undergraduate;USA;Diya Davis;7,2;TikTok;Yes;5,1;5;In Relationship;4;9
+13/07/2024;368;22;Male;Graduate;Mexico;James White;6;WhatsApp;Yes;6,2;6;Single;3;7
+16/07/2024;369;19;Female;Undergraduate;France;Henry Aziz;4,1;Instagram;No;7,9;7;In Relationship;2;5
+25/09/2024;370;21;Male;Graduate;Canada;Isabella Kato;4,9;Instagram;Yes;7,3;6;Single;3;7
+29/05/2024;371;20;Female;Undergraduate;Spain;Maria Brown;4,7;TikTok;Yes;7,2;6;Single;3;7
+07/01/2024;372;22;Male;Graduate;Denmark;Mateo Watanabe;3,5;Facebook;No;8,3;8;In Relationship;2;4
+23/07/2024;373;19;Female;Undergraduate;Ireland;Henry Smith;4,4;Instagram;Yes;7,5;7;Single;3;6
+12/04/2024;374;21;Male;Graduate;India;Khalid Suzuki;6,3;WhatsApp;Yes;6;5;In Relationship;4;8
+03/09/2024;375;20;Female;Undergraduate;Switzerland;Henry Anderson;3,4;Instagram;No;8,4;8;Single;2;4
+11/10/2024;376;22;Male;Graduate;Turkey;Sneha Jain;5;TikTok;Yes;7,2;6;Single;3;7
+19/10/2024;377;19;Female;Undergraduate;USA;Pedro Mehta;7,3;Instagram;Yes;5;5;In Relationship;4;9
+12/12/2024;378;21;Male;Graduate;Mexico;Amit Martin;6,1;WhatsApp;Yes;6,1;6;Single;3;7
+29/07/2024;379;20;Female;Undergraduate;France;Arjun Lopez;4;Instagram;No;8;7;In Relationship;2;5
+26/09/2024;380;22;Male;Graduate;Canada;Sakura Nakamura;4,8;TikTok;Yes;7,4;6;Single;3;7
+06/05/2024;381;19;Female;Undergraduate;Spain;Evelyn Silva;4,6;Instagram;Yes;7,3;6;Single;3;7
+14/01/2024;382;21;Male;Graduate;Denmark;Ali Singh;3,4;Facebook;No;8,4;8;In Relationship;2;4
+25/10/2024;383;20;Female;Undergraduate;Ireland;Charlotte Sharma;4,3;TikTok;Yes;7,6;7;Single;3;6
+19/07/2024;384;22;Male;Graduate;India;Mei Chopra;6,4;WhatsApp;Yes;5,9;5;In Relationship;4;8
+19/02/2024;385;19;Female;Undergraduate;Switzerland;Mei Wilson;3,3;Instagram;No;8,5;8;Single;2;4
+01/09/2024;386;21;Male;Graduate;Turkey;Nadia Ito;4,9;Instagram;Yes;7,3;6;Single;3;7
+07/07/2024;387;20;Female;Undergraduate;USA;Ananya Santos;7,4;TikTok;Yes;4,9;5;In Relationship;4;9
+02/10/2024;388;22;Male;Graduate;Mexico;Riku Nakamura;6,2;WhatsApp;Yes;6;6;Single;3;7
+20/08/2024;389;19;Female;Undergraduate;France;Sophia Kobayashi;3,9;Instagram;No;8,1;7;In Relationship;2;5
+28/02/2024;390;21;Male;Graduate;Canada;Haruto Hussein;4,7;Instagram;Yes;7,5;6;Single;3;7
+08/07/2024;391;20;Female;Undergraduate;Spain;Sofia Nakamura;4,5;TikTok;Yes;7,4;6;Single;3;7
+30/01/2024;392;22;Male;Graduate;Denmark;Arjun Gupta;3,3;Facebook;No;8,5;8;In Relationship;2;4
+31/10/2024;393;19;Female;Undergraduate;Ireland;Charlotte Kapoor;4,2;Instagram;Yes;7,7;7;Single;3;6
+09/12/2024;394;21;Male;Graduate;India;Rohan Khaled;6,5;WhatsApp;Yes;5,8;5;In Relationship;4;8
+26/02/2024;395;20;Female;Undergraduate;Switzerland;Ananya Karim;3,2;Instagram;No;8,6;8;Single;2;4
+08/10/2024;396;22;Male;Graduate;Turkey;Riku Miller;4,8;TikTok;Yes;7,4;6;Single;3;7
+13/08/2024;397;19;Female;Undergraduate;USA;Carlos Miller;7,5;Instagram;Yes;4,8;5;In Relationship;4;9
+10/01/2024;398;21;Male;Graduate;Mexico;Samir Tanaka;6,3;WhatsApp;Yes;5,9;6;Single;3;7
+11/01/2024;399;20;Female;Undergraduate;France;Camila Kumar;3,8;Instagram;No;8,2;7;In Relationship;2;5
+07/06/2024;400;22;Male;Graduate;Canada;Sara Yamamoto;4,6;TikTok;Yes;7,6;6;Single;3;7
+13/01/2024;401;19;Female;Undergraduate;Spain;Yuki Kato;4,4;Instagram;Yes;7,5;6;Single;3;7
+04/02/2024;402;21;Male;Graduate;Denmark;Sara Smith;3,2;Facebook;No;8,6;8;In Relationship;2;4
+10/01/2024;403;20;Female;Undergraduate;Ireland;Youssef White;4,1;TikTok;Yes;7,8;7;Single;3;6
+30/04/2024;404;22;Male;Graduate;India;Lucas Davis;6,6;WhatsApp;Yes;5,7;5;In Relationship;4;8
+05/07/2024;405;19;Female;Undergraduate;Switzerland;Samir Ito;3,1;Instagram;No;8,7;8;Single;2;4
+03/12/2024;406;21;Male;Graduate;Turkey;Mia Takahashi;4,7;Instagram;Yes;7,5;6;Single;3;7
+03/11/2024;407;20;Female;Undergraduate;USA;Harper Ali;7,6;TikTok;Yes;4,7;5;In Relationship;4;9
+27/05/2024;408;22;Male;Graduate;Mexico;Ava Smith;6,4;WhatsApp;Yes;5,8;6;Single;3;7
+18/12/2024;409;19;Female;Undergraduate;France;Oliver Aziz;3,7;Instagram;No;8,3;7;In Relationship;2;5
+09/12/2024;410;21;Male;Graduate;Canada;Amit Silva;4,5;Instagram;Yes;7,7;6;Single;3;7
+27/05/2024;411;20;Female;Undergraduate;Spain;Maria Silva;4,3;TikTok;Yes;7,6;6;Single;3;7
+03/09/2024;412;22;Male;Graduate;Denmark;Alexander Ali;3,1;Facebook;No;8,7;8;In Relationship;2;4
+29/01/2024;413;19;Female;Undergraduate;Ireland;Juan Khaled;4;Instagram;Yes;7,9;7;Single;3;6
+09/01/2024;414;21;Male;Graduate;India;Noah White;6,7;WhatsApp;Yes;5,6;5;In Relationship;4;8
+08/10/2024;415;20;Female;Undergraduate;Switzerland;Olivia Watanabe;3;Instagram;No;8,8;8;Single;2;4
+23/01/2024;416;22;Male;Graduate;Turkey;Isabella Harris;4,6;TikTok;Yes;7,6;6;Single;3;7
+16/05/2024;417;19;Female;Undergraduate;USA;Hana Nasser;7,7;Instagram;Yes;4,6;5;In Relationship;4;9
+15/08/2024;418;21;Male;Graduate;Mexico;Nadia Almeida;6,5;WhatsApp;Yes;5,7;6;Single;3;7
+04/02/2024;419;20;Female;Undergraduate;France;Sophia Karim;3,6;Instagram;No;8,4;7;In Relationship;2;5
+02/10/2024;420;22;Male;Graduate;Canada;Sophia Yamamoto;4,4;TikTok;Yes;7,8;6;Single;3;7
+04/04/2024;421;19;Female;Undergraduate;Spain;Arjun Saleh;4,2;Instagram;Yes;7,7;6;Single;3;7
+22/12/2024;422;21;Male;Graduate;Denmark;Henry Martin;3;Facebook;No;8,8;8;In Relationship;2;4
+23/03/2024;423;20;Female;Undergraduate;Ireland;Sora Watanabe;3,9;TikTok;Yes;8;7;Single;3;6
+24/08/2024;424;22;Male;Graduate;India;Valentina Karim;6,8;WhatsApp;Yes;5,5;5;In Relationship;4;8
+25/09/2024;425;19;Female;Undergraduate;Switzerland;Lucia White;2,9;Instagram;No;8,9;8;Single;2;4
+27/06/2024;426;21;Male;Graduate;Turkey;Amelia Watanabe;4,5;Instagram;Yes;7,7;6;Single;3;7
+07/01/2024;427;20;Female;Undergraduate;USA;Alexander Karim;7,8;TikTok;Yes;4,5;5;In Relationship;4;9
+14/05/2024;428;22;Male;Graduate;Mexico;Sneha Wilson;6,6;WhatsApp;Yes;5,6;6;Single;3;7
+24/05/2024;429;19;Female;Undergraduate;France;Ali Mehta;3,5;Instagram;No;8,5;7;In Relationship;2;5
+20/01/2024;430;21;Male;Graduate;Canada;Amelia Davis;4,3;Instagram;Yes;7,9;6;Single;3;7
+18/07/2024;431;20;Female;Undergraduate;Spain;Mia Wilson;4,1;TikTok;Yes;7,8;6;Single;3;7
+17/04/2024;432;22;Male;Graduate;Denmark;Minato Santos;2,9;Facebook;No;8,9;8;In Relationship;2;4
+02/12/2024;433;19;Female;Undergraduate;Ireland;Juan Hussein;3,8;Instagram;Yes;8,1;7;Single;3;6
+07/11/2024;434;21;Male;Graduate;India;Lucia Hamdan;6,9;WhatsApp;Yes;5,4;5;In Relationship;4;8
+02/01/2024;435;20;Female;Undergraduate;Switzerland;Valentina Saleh;2,8;Instagram;No;9;8;Single;2;4
+12/03/2024;436;22;Male;Graduate;Turkey;Aoi Brown;4,4;TikTok;Yes;7,8;6;Single;3;7
+19/12/2024;437;19;Female;Undergraduate;USA;Omar Thomas;7,9;Instagram;Yes;4,4;5;In Relationship;4;9
+04/04/2024;438;21;Male;Graduate;Mexico;Nadia Anderson;6,7;WhatsApp;Yes;5,5;6;Single;3;7
+18/06/2024;439;20;Female;Undergraduate;France;Haruto Martin;3,4;Instagram;No;8,6;7;In Relationship;2;5
+22/01/2024;440;22;Male;Graduate;Canada;Alexander Takahashi;4,2;TikTok;Yes;8;6;Single;3;7
+03/06/2024;441;19;Female;Undergraduate;Spain;Sneha Johnson;4;Instagram;Yes;7,9;6;Single;3;7
+25/12/2024;442;21;Male;Graduate;Denmark;Diya Kato;2,8;Facebook;No;9;8;In Relationship;2;4
+24/01/2024;443;20;Female;Undergraduate;Ireland;Oliver Tanaka;3,7;TikTok;Yes;8,2;7;Single;3;6
+23/08/2024;444;22;Male;Graduate;India;Alexander Kobayashi;7;WhatsApp;Yes;5,3;5;In Relationship;4;8
+20/03/2024;445;19;Female;Undergraduate;Switzerland;Diego Hussein;2,7;Instagram;No;9,1;8;Single;2;4
+17/11/2024;446;21;Male;Graduate;Turkey;Yuki Fahd;4,3;Instagram;Yes;7,9;6;Single;3;7
+18/05/2024;447;20;Female;Undergraduate;USA;Charlotte Santos;8;TikTok;Yes;4,3;5;In Relationship;4;9
+16/12/2024;448;22;Male;Graduate;Mexico;Hana Wilson;6,8;WhatsApp;Yes;5,4;6;Single;3;7
+28/12/2024;449;19;Female;Undergraduate;France;Mia Aziz;3,3;Instagram;No;8,7;7;In Relationship;2;5
+03/01/2024;450;21;Male;Graduate;Canada;Liam Garcia;4,1;Instagram;Yes;8,1;6;Single;3;7
+02/02/2024;451;20;Female;Undergraduate;Spain;Mia Reddy;3,9;TikTok;Yes;8;6;Single;3;7
+03/05/2024;452;22;Male;Graduate;Denmark;Omar Kobayashi;2,7;Facebook;No;9,1;8;In Relationship;2;4
+15/04/2024;453;19;Female;Undergraduate;Ireland;Haruto Anderson;3,6;Instagram;Yes;8,3;7;Single;3;6
+05/07/2024;454;21;Male;Graduate;India;Priya Khaled;7,1;WhatsApp;Yes;5,2;5;In Relationship;4;8
+12/03/2024;455;20;Female;Undergraduate;Switzerland;Benjamin Hernandez;2,6;Instagram;No;9,2;8;Single;2;4
+25/02/2024;456;22;Male;Graduate;Turkey;Minato Singh;4,2;TikTok;Yes;8;6;Single;3;7
+10/04/2024;457;19;Female;Undergraduate;USA;Mia Singh;8,1;Instagram;Yes;4,2;5;In Relationship;4;9
+31/03/2024;458;21;Male;Graduate;Mexico;Juan Costa;6,9;WhatsApp;Yes;5,3;6;Single;3;7
+03/08/2024;459;20;Female;Undergraduate;France;Olivia Hernandez;3,2;Instagram;No;8,8;7;In Relationship;2;5
+15/06/2024;460;22;Male;Graduate;Canada;Ren Patel;4;TikTok;Yes;8,2;6;Single;3;7
+18/06/2024;461;19;Female;Undergraduate;Spain;Amelia Hernandez;3,8;Instagram;Yes;8,1;6;Single;3;7
+23/04/2024;462;21;Male;Graduate;Denmark;Mohamed Chopra;2,6;Facebook;No;9,2;8;In Relationship;2;4
+21/04/2024;463;20;Female;Undergraduate;Ireland;James Kapoor;3,5;TikTok;Yes;8,4;7;Single;3;6
+03/09/2024;464;22;Male;Graduate;India;Ava Kobayashi;7,2;WhatsApp;Yes;5,1;5;In Relationship;4;8
+28/07/2024;465;19;Female;Undergraduate;Switzerland;Olivia Smith;2,5;Instagram;No;9,3;8;Single;2;4
+16/12/2024;466;21;Male;Graduate;Turkey;James Lopez;4,1;Instagram;Yes;8,1;6;Single;3;7
+16/03/2024;467;20;Female;Undergraduate;USA;Sora Yamamoto;8,2;TikTok;Yes;4,1;5;In Relationship;4;9
+24/01/2024;468;22;Male;Graduate;Mexico;Samir Martin;7;WhatsApp;Yes;5,2;6;Single;3;7
+17/10/2024;469;19;Female;Undergraduate;France;Diya Fahd;3,1;Instagram;No;8,9;7;In Relationship;2;5
+12/06/2024;470;21;Male;Graduate;Canada;Mateo Johnson;3,9;Instagram;Yes;8,3;6;Single;3;7
+14/12/2024;471;20;Female;Undergraduate;Spain;Raj Thomas;3,7;TikTok;Yes;8,2;6;Single;3;7
+17/07/2024;472;22;Male;Graduate;Denmark;Emma Jain;2,5;Facebook;No;9,3;8;In Relationship;2;4
+13/11/2024;473;19;Female;Undergraduate;Ireland;Maria Patel;3,4;Instagram;Yes;8,5;7;Single;3;6
+17/01/2024;474;21;Male;Graduate;India;Sneha Harris;7,3;WhatsApp;Yes;5;5;In Relationship;4;8
+08/07/2024;475;20;Female;Undergraduate;Switzerland;Maria Kapoor;2,4;Instagram;No;9,4;8;Single;2;4
+31/05/2024;476;22;Male;Graduate;Turkey;Hiroshi Kobayashi;4;TikTok;Yes;8,2;6;Single;3;7
+15/11/2024;477;19;Female;Undergraduate;USA;Diya Thomas;8,3;Instagram;Yes;4;5;In Relationship;4;9
+25/11/2024;478;21;Male;Graduate;Mexico;Camila Nakamura;7,1;WhatsApp;Yes;5,1;6;Single;3;7
+04/11/2024;479;20;Female;Undergraduate;France;Charlotte Miller;3;Instagram;No;9;7;In Relationship;2;5
+16/11/2024;480;22;Male;Graduate;Canada;Ali Garcia;3,8;TikTok;Yes;8,4;6;Single;3;7
+05/06/2024;481;19;Female;Undergraduate;Spain;Maria Reddy;3,6;Instagram;Yes;8,3;6;Single;3;7
+12/06/2024;482;21;Male;Graduate;Denmark;Omar Sharma;2,4;Facebook;No;9,4;8;In Relationship;2;4
+14/09/2024;483;20;Female;Undergraduate;Ireland;Maria Kobayashi;3,3;TikTok;Yes;8,6;7;Single;3;6
+27/07/2024;484;22;Male;Graduate;India;Hassan White;7,4;WhatsApp;Yes;4,9;5;In Relationship;4;8
+27/08/2024;485;19;Female;Undergraduate;Switzerland;Oliver Brown;2,3;Instagram;No;9,5;8;Single;2;4
+11/06/2024;486;21;Male;Graduate;Turkey;Camila Khaled;3,9;Instagram;Yes;8,3;6;Single;3;7
+07/11/2024;487;20;Female;Undergraduate;USA;Haruto Saleh;8,4;TikTok;Yes;3,9;5;In Relationship;4;9
+17/11/2024;488;22;Male;Graduate;Mexico;Pedro Sharma;7,2;WhatsApp;Yes;5;6;Single;3;7
+29/10/2024;489;19;Female;Undergraduate;France;Hana Santos;2,9;Instagram;No;9,1;7;In Relationship;2;5
+14/06/2024;490;21;Male;Graduate;Canada;Riku Ali;3,7;Instagram;Yes;8,5;6;Single;3;7
+07/05/2024;491;20;Female;Undergraduate;Spain;Minato Sato;3,5;TikTok;Yes;8,4;6;Single;3;7
+20/10/2024;492;22;Male;Graduate;Denmark;Alexander Singh;2,3;Facebook;No;9,5;8;In Relationship;2;4
+22/01/2024;493;19;Female;Undergraduate;Ireland;James Takahashi;3,2;Instagram;Yes;8,7;7;Single;3;6
+11/06/2024;494;21;Male;Graduate;India;Pedro Martin;7,5;WhatsApp;Yes;4,8;5;In Relationship;4;8
+31/03/2024;495;20;Female;Undergraduate;Switzerland;Mia Johnson;2,2;Instagram;No;9,6;8;Single;2;4
+04/06/2024;496;22;Male;Graduate;Turkey;Harper Karim;3,8;TikTok;Yes;8,4;6;Single;3;7
+30/01/2024;497;19;Female;Undergraduate;USA;Nadia Kobayashi;8,5;Instagram;Yes;3,8;5;In Relationship;4;9
+18/04/2024;498;21;Male;Graduate;Mexico;Haruto Gupta;7,3;WhatsApp;Yes;4,9;6;Single;3;7
+21/04/2024;499;20;Female;Undergraduate;France;James Costa;2,8;Instagram;No;9,2;7;In Relationship;2;5
+24/05/2024;500;22;Male;Graduate;Canada;Youssef Watanabe;3,6;TikTok;Yes;8,6;6;Single;3;7
+28/10/2024;501;19;Female;Undergraduate;Brazil;Diya Garcia;6,2;WhatsApp;Yes;6,3;6;Single;3;7
+12/08/2024;502;21;Male;Graduate;China;Priya Kapoor;4,5;WeChat;No;7,8;7;In Relationship;2;5
+09/09/2024;503;20;Female;Undergraduate;Netherlands;Liam Sato;3,8;Instagram;No;8,2;8;Single;2;4
+07/10/2024;504;22;Male;Graduate;New Zealand;Hassan Anderson;4,7;Instagram;Yes;7,5;7;In Relationship;3;6
+02/09/2024;505;19;Female;Undergraduate;Singapore;Charlotte Hamdan;5,1;TikTok;Yes;7;6;Single;3;7
+30/06/2024;506;21;Male;Graduate;Malaysia;Ali Watanabe;5,5;WhatsApp;Yes;6,8;6;Single;3;7
+24/05/2024;507;20;Female;Undergraduate;UAE;Minato Hamdan;6,5;Instagram;Yes;6,5;5;In Relationship;4;8
+02/02/2024;508;22;Male;Graduate;Poland;Benjamin Almeida;4,2;Facebook;No;7,9;7;Single;2;5
+18/12/2024;509;19;Female;Undergraduate;India;Amit Wilson;6,8;WhatsApp;Yes;6;5;In Relationship;4;8
+01/02/2024;510;21;Male;Graduate;Canada;Raj Kapoor;4,8;Instagram;Yes;7,4;7;Single;3;6
+12/03/2024;511;20;Female;Undergraduate;Brazil;Isabella Martinez;6,1;Instagram;Yes;6,4;6;Single;3;7
+27/07/2024;512;22;Male;Graduate;China;Mateo Jain;4,4;WeChat;No;7,9;7;In Relationship;2;5
+30/01/2024;513;19;Female;Undergraduate;Netherlands;Youssef Farouk;3,7;TikTok;No;8,3;8;Single;2;4
+04/01/2024;514;21;Male;Graduate;New Zealand;Sora Harris;4,6;Instagram;Yes;7,6;7;In Relationship;3;6
+03/04/2024;515;20;Female;Undergraduate;Singapore;Khalid Martinez;5,2;TikTok;Yes;6,9;6;Single;3;7
+09/05/2024;516;22;Male;Graduate;Malaysia;Nadia Lopez;5,6;WhatsApp;Yes;6,7;6;Single;3;7
+28/04/2024;517;19;Female;Undergraduate;UAE;Liam Patel;6,6;Instagram;Yes;6,4;5;In Relationship;4;8
+06/01/2024;518;21;Male;Graduate;Poland;Emma Sharma;4,1;Facebook;No;8;7;Single;2;5
+04/12/2024;519;20;Female;Undergraduate;India;Sakura Takahashi;6,9;WhatsApp;Yes;5,9;5;In Relationship;4;8
+18/12/2024;520;22;Male;Graduate;Canada;Aarav Almeida;4,7;TikTok;Yes;7,5;7;Single;3;6
+24/05/2024;521;19;Female;Undergraduate;Brazil;Harper Taylor;6;WhatsApp;Yes;6,5;6;Single;3;7
+12/10/2024;522;21;Male;Graduate;China;Olivia Silva;4,3;WeChat;No;8;7;In Relationship;2;5
+13/12/2024;523;20;Female;Undergraduate;Netherlands;Aarav Jain;3,6;Instagram;No;8,4;8;Single;2;4
+21/03/2024;524;22;Male;Graduate;New Zealand;Henry Silva;4,5;Facebook;Yes;7,7;7;In Relationship;3;6
+20/04/2024;525;19;Female;Undergraduate;Singapore;Pedro Silva;5,3;TikTok;Yes;6,8;6;Single;3;7
+09/10/2024;526;21;Male;Graduate;Malaysia;Aoi Suzuki;5,7;WhatsApp;Yes;6,6;6;Single;3;7
+17/10/2024;527;20;Female;Undergraduate;UAE;Maria Taylor;6,7;Instagram;Yes;6,3;5;In Relationship;4;8
+01/08/2024;528;22;Male;Graduate;Poland;Maria Nasser;4;Facebook;No;8,1;7;Single;2;5
+15/04/2024;529;19;Female;Undergraduate;India;Pedro Fahd;7;WhatsApp;Yes;5,8;5;In Relationship;4;8
+20/08/2024;530;21;Male;Graduate;Canada;Lucia Miller;4,6;Instagram;Yes;7,6;7;Single;3;6
+28/03/2024;531;20;Female;Undergraduate;Brazil;Oliver Nasser;5,9;TikTok;Yes;6,6;6;Single;3;7
+20/10/2024;532;22;Male;Graduate;China;Hana Reddy;4,2;WeChat;No;8,1;7;In Relationship;2;5
+17/04/2024;533;19;Female;Undergraduate;Netherlands;Liam Mehta;3,5;Instagram;No;8,5;8;Single;2;4
+09/05/2024;534;21;Male;Graduate;New Zealand;Hana Suzuki;4,4;Facebook;Yes;7,8;7;In Relationship;3;6
+16/04/2024;535;20;Female;Undergraduate;Singapore;Rohan Sato;5,4;TikTok;Yes;6,7;6;Single;3;7
+04/01/2024;536;22;Male;Graduate;Malaysia;Sora Kato;5,8;WhatsApp;Yes;6,5;6;Single;3;7
+01/02/2024;537;19;Female;Undergraduate;UAE;Hiroshi Kapoor;6,8;Instagram;Yes;6,2;5;In Relationship;4;8
+23/05/2024;538;21;Male;Graduate;Poland;Aoi Johnson;3,9;Facebook;No;8,2;7;Single;2;5
+09/05/2024;539;20;Female;Undergraduate;India;Aarav Yamamoto;7,1;WhatsApp;Yes;5,7;5;In Relationship;4;8
+08/02/2024;540;22;Male;Graduate;Canada;Ren Singh;4,5;TikTok;Yes;7,7;7;Single;3;6
+19/09/2024;541;19;Female;Undergraduate;Brazil;Diego Reddy;5,8;WhatsApp;Yes;6,7;6;Single;3;7
+04/07/2024;542;21;Male;Graduate;China;Valentina Lopez;4,1;WeChat;No;8,2;7;In Relationship;2;5
+01/09/2024;543;20;Female;Undergraduate;Netherlands;Ava Santos;3,4;Instagram;No;8,6;8;Single;2;4
+14/02/2024;544;22;Male;Graduate;New Zealand;Sophia Thomas;4,3;Instagram;Yes;7,9;7;In Relationship;3;6
+07/11/2024;545;19;Female;Undergraduate;Singapore;Mia Garcia;5,5;TikTok;Yes;6,6;6;Single;3;7
+07/09/2024;546;21;Male;Graduate;Malaysia;Isabella Singh;5,9;WhatsApp;Yes;6,4;6;Single;3;7
+09/12/2024;547;20;Female;Undergraduate;UAE;Lucia Sharma;6,9;Instagram;Yes;6,1;5;In Relationship;4;8
+18/01/2024;548;22;Male;Graduate;Poland;Aoi Patel;3,8;Facebook;No;8,3;7;Single;2;5
+12/04/2024;549;19;Female;Undergraduate;India;Samir Kumar;7,2;WhatsApp;Yes;5,6;5;In Relationship;4;8
+04/08/2024;550;21;Male;Graduate;Canada;Valentina Ali;4,4;Instagram;Yes;7,8;7;Single;3;6
+20/08/2024;551;20;Female;Undergraduate;Brazil;Juan Lopez;5,7;TikTok;Yes;6,8;6;Single;3;7
+16/12/2024;552;22;Male;Graduate;China;Noah Hamdan;4;WeChat;No;8,3;7;In Relationship;2;5
+27/04/2024;553;19;Female;Undergraduate;Netherlands;Aarav Ali;3,3;Instagram;No;8,7;8;Single;2;4
+20/12/2024;554;21;Male;Graduate;New Zealand;Priya Ali;4,2;Facebook;Yes;8;7;In Relationship;3;6
+27/05/2024;555;20;Female;Undergraduate;Singapore;Mateo Anderson;5,6;TikTok;Yes;6,5;6;Single;3;7
+03/04/2024;556;22;Male;Graduate;Malaysia;Lucas Martin;6;WhatsApp;Yes;6,3;6;Single;3;7
+15/01/2024;557;19;Female;Undergraduate;UAE;Vikram Jain;7;Instagram;Yes;6;5;In Relationship;4;8
+03/08/2024;558;21;Male;Graduate;Poland;Priya Thomas;3,7;Facebook;No;8,4;7;Single;2;5
+01/09/2024;559;20;Female;Undergraduate;India;Ananya Mehta;7,3;WhatsApp;Yes;5,5;5;In Relationship;4;8
+31/07/2024;560;22;Male;Graduate;Canada;Samir Ali;4,3;TikTok;Yes;7,9;7;Single;3;6
+18/11/2024;561;19;Female;Undergraduate;Brazil;Arjun Chopra;5,6;WhatsApp;Yes;6,9;6;Single;3;7
+15/03/2024;562;21;Male;Graduate;China;Juan Yamamoto;3,9;WeChat;No;8,4;7;In Relationship;2;5
+11/01/2024;563;20;Female;Undergraduate;Netherlands;Pedro Hernandez;3,2;Instagram;No;8,8;8;Single;2;4
+20/03/2024;564;22;Male;Graduate;New Zealand;Ali Taylor;4,1;Instagram;Yes;8,1;7;In Relationship;3;6
+10/01/2024;565;19;Female;Undergraduate;Singapore;Charlotte Martinez;5,7;TikTok;Yes;6,4;6;Single;3;7
+16/09/2024;566;21;Male;Graduate;Malaysia;Youssef Kato;6,1;WhatsApp;Yes;6,2;6;Single;3;7
+18/11/2024;567;20;Female;Undergraduate;UAE;Ava Reddy;7,1;Instagram;Yes;5,9;5;In Relationship;4;8
+02/07/2024;568;22;Male;Graduate;Poland;Amelia Chopra;3,6;Facebook;No;8,5;7;Single;2;5
+25/01/2024;569;19;Female;Undergraduate;India;Aarav Smith;7,4;WhatsApp;Yes;5,4;5;In Relationship;4;8
+12/05/2024;570;21;Male;Graduate;Canada;Camila Chopra;4,2;Instagram;Yes;8;7;Single;3;6
+25/07/2024;571;20;Female;Undergraduate;Spain;Ren Brown;6,1;Instagram;Yes;7,2;5;Single;4;7
+09/12/2024;572;23;Male;Graduate;Denmark;Lucas Patel;3,8;Twitter;No;7,8;8;In Relationship;2;4
+25/02/2024;573;19;Female;Undergraduate;Ireland;Youssef Sato;5,5;TikTok;Yes;6,8;6;Single;4;8
+28/05/2024;574;22;Male;Graduate;India;Haruto Brown;7,2;Facebook;Yes;5,9;4;Single;5;9
+29/10/2024;575;21;Female;Undergraduate;Switzerland;Diya Kapoor;4,2;Instagram;No;7,5;7;In Relationship;2;5
+02/06/2024;576;24;Male;Graduate;Turkey;Elijah Thomas;6,8;TikTok;Yes;6,2;5;Single;4;8
+03/05/2024;577;20;Female;Undergraduate;USA;Diya Aziz;5,9;Instagram;Yes;6,7;6;In Relationship;3;7
+29/04/2024;578;22;Male;Graduate;Mexico;Diego Garcia;6,5;Facebook;Yes;6,1;5;Single;4;8
+28/01/2024;579;19;Female;Undergraduate;France;Ren Fahd;4,7;Twitter;No;7,4;7;Single;2;5
+05/09/2024;580;23;Male;Graduate;Canada;Yuki Sato;5,2;Instagram;Yes;7;6;In Relationship;3;6
+21/03/2024;581;21;Female;Undergraduate;UK;Elijah Farouk;6,3;TikTok;Yes;6,4;5;Single;4;8
+26/09/2024;582;24;Male;Graduate;Italy;Pedro Kato;4,9;Facebook;No;7,3;7;In Relationship;2;5
+10/01/2024;583;20;Female;Undergraduate;Russia;Priya Harris;6,7;Instagram;Yes;6;5;Single;4;8
+29/08/2024;584;22;Male;Graduate;China;Carlos Costa;5,8;WeChat;Yes;6,5;6;In Relationship;3;7
+09/10/2024;585;19;Female;Undergraduate;Japan;Hassan Davis;4,5;Twitter;No;7,6;8;Single;2;4
+27/08/2024;586;23;Male;Graduate;Poland;Hiroshi Nakamura;6,4;Facebook;Yes;6,3;5;Single;4;8
+05/05/2024;587;21;Female;Undergraduate;Finland;Benjamin Kumar;4,1;Instagram;No;7,7;7;In Relationship;2;5
+27/10/2024;588;24;Male;Graduate;Spain;Sora Thomas;6,6;TikTok;Yes;6,2;5;Single;4;8
+28/10/2024;589;20;Female;Undergraduate;Denmark;Ren Lopez;4,4;Instagram;No;7,4;7;In Relationship;2;5
+13/02/2024;590;22;Male;Graduate;Ireland;Oliver Wilson;5,7;Twitter;Yes;6,8;6;Single;3;7
+28/02/2024;591;19;Female;Undergraduate;India;James Johnson;7;Instagram;Yes;5,8;4;Single;5;9
+29/05/2024;592;23;Male;Graduate;Switzerland;Riku Silva;4,3;Facebook;No;7,5;7;In Relationship;2;5
+26/12/2024;593;21;Female;Undergraduate;Turkey;Hana Taylor;6,9;TikTok;Yes;6,1;5;Single;4;8
+04/12/2024;594;24;Male;Graduate;USA;Khalid Watanabe;5,6;Instagram;Yes;6,9;6;In Relationship;3;7
+08/03/2024;595;20;Female;Undergraduate;Mexico;Liam Wilson;6,2;Facebook;Yes;6,3;5;Single;4;8
+27/01/2024;596;21;Male;Undergraduate;France;Diya Reddy;5,8;Instagram;Yes;6,7;6;Single;3;7
+09/11/2024;597;23;Female;Graduate;Canada;Riku Ito;4,9;TikTok;No;7,3;7;In Relationship;2;5
+03/09/2024;598;20;Male;Undergraduate;UK;Valentina Hussein;6,4;Facebook;Yes;6,2;5;Single;4;8
+23/10/2024;599;22;Female;Graduate;Italy;Nadia Saleh;5,1;Twitter;No;7,1;7;In Relationship;2;5
+23/04/2024;600;19;Male;Undergraduate;Russia;Lucas Aziz;6,7;Instagram;Yes;6;4;Single;4;8
+28/08/2024;601;24;Female;Graduate;China;Liam Ito;5,5;WeChat;Yes;6,8;6;In Relationship;3;7
+07/07/2024;602;21;Male;Undergraduate;Japan;Nadia Farouk;4,3;Twitter;No;7,6;8;Single;2;4
+17/06/2024;603;23;Female;Graduate;Poland;Vikram Yamamoto;6,2;Instagram;Yes;6,4;5;Single;4;8
+29/11/2024;604;20;Male;Undergraduate;Finland;Diego Hamdan;4,5;Facebook;No;7,4;7;In Relationship;2;5
+11/10/2024;605;22;Female;Graduate;Spain;Camila Martin;6,3;TikTok;Yes;6,3;5;Single;4;8
+20/04/2024;606;19;Male;Undergraduate;Denmark;Diego Suzuki;4,7;Instagram;No;7,2;7;In Relationship;2;5
+05/06/2024;607;24;Female;Graduate;Ireland;Haruto Harris;5,9;Twitter;Yes;6,6;6;Single;3;7
+25/12/2024;608;21;Male;Undergraduate;India;James Mehta;7,1;Facebook;Yes;5,7;4;Single;5;9
+05/05/2024;609;23;Female;Graduate;Switzerland;Elijah Kato;4,4;Instagram;No;7,4;7;In Relationship;2;5
+06/04/2024;610;20;Male;Undergraduate;Turkey;Amit Davis;6,6;TikTok;Yes;6,2;5;Single;4;8
+17/01/2024;611;22;Female;Graduate;USA;Priya Brown;5,4;Instagram;Yes;6,9;6;In Relationship;3;7
+04/02/2024;612;19;Male;Undergraduate;Mexico;Samir Watanabe;6,5;Facebook;Yes;6,1;5;Single;4;8
+11/12/2024;613;24;Female;Graduate;France;Lucas Smith;4,8;Twitter;No;7,3;7;In Relationship;2;5
+21/11/2024;614;21;Male;Undergraduate;Canada;Sora Martin;5,7;Instagram;Yes;6,7;6;Single;3;7
+16/04/2024;615;23;Female;Graduate;UK;Vikram Johnson;6,1;TikTok;Yes;6,4;5;Single;4;8
+12/10/2024;616;20;Male;Undergraduate;Italy;Valentina Fahd;4,6;Facebook;No;7,2;7;In Relationship;2;5
+11/09/2024;617;22;Female;Graduate;Russia;Sophia Hamdan;6,8;Instagram;Yes;5,9;4;Single;5;9
+12/08/2024;618;19;Male;Undergraduate;China;Priya Sato;5,6;WeChat;Yes;6,8;6;In Relationship;3;7
+08/04/2024;619;24;Female;Graduate;Japan;Harper Jain;4,2;Twitter;No;7,5;8;Single;2;4
+14/05/2024;620;21;Male;Undergraduate;Poland;Vikram Kato;6,3;TikTok;Yes;6,3;5;Single;4;8
+03/04/2024;621;23;Female;Graduate;Finland;Amelia Mehta;4,4;Instagram;No;7,4;7;In Relationship;2;5
+01/10/2024;622;20;Male;Undergraduate;Spain;Minato White;6,5;Facebook;Yes;6,2;5;Single;4;8
+11/11/2024;623;22;Female;Graduate;Denmark;Omar Lopez;4,6;Twitter;No;7,3;7;In Relationship;2;5
+17/10/2024;624;19;Male;Undergraduate;Ireland;Riku Patel;5,8;Instagram;Yes;6,6;6;Single;3;7
+10/04/2024;625;24;Female;Graduate;India;Omar Wilson;7;TikTok;Yes;5,8;4;Single;5;9
+01/08/2024;626;21;Male;Undergraduate;Switzerland;Sora Farouk;4,5;Facebook;No;7,3;7;In Relationship;2;5
+04/10/2024;627;23;Female;Graduate;Turkey;Ananya Aziz;6,7;Instagram;Yes;6,1;5;Single;4;8
+12/12/2024;628;20;Male;Undergraduate;USA;Elijah Taylor;5,5;Twitter;Yes;6,8;6;In Relationship;3;7
+01/12/2024;629;22;Female;Graduate;Mexico;Mohamed Martinez;6,4;Facebook;Yes;6,2;5;Single;4;8
+31/08/2024;630;19;Male;Undergraduate;France;Carlos Almeida;4,7;Instagram;No;7,2;7;In Relationship;2;5
+29/01/2024;631;24;Female;Graduate;Canada;Mia Fahd;5,6;TikTok;Yes;6,7;6;Single;3;7
+11/02/2024;632;21;Male;Undergraduate;UK;Hassan Lopez;6,2;Facebook;Yes;6,3;5;Single;4;8
+21/06/2024;633;23;Female;Graduate;Italy;Lucas Jain;4,8;Twitter;No;7,1;7;In Relationship;2;5
+07/05/2024;634;20;Male;Undergraduate;Russia;Carlos Wilson;6,9;Instagram;Yes;5,9;4;Single;5;9
+29/10/2024;635;22;Female;Graduate;China;Ava Khaled;5,7;WeChat;Yes;6,7;6;In Relationship;3;7
+22/01/2024;636;19;Male;Undergraduate;Japan;Raj Santos;4,4;Twitter;No;7,4;8;Single;2;4
+17/10/2024;637;24;Female;Graduate;Poland;Noah Tanaka;6,1;TikTok;Yes;6,4;5;Single;4;8
+26/02/2024;638;21;Male;Undergraduate;Finland;Noah Miller;4,3;Instagram;No;7,5;7;In Relationship;2;5
+30/05/2024;639;23;Female;Graduate;Spain;Riku Yamamoto;6,4;Facebook;Yes;6,2;5;Single;4;8
+07/03/2024;640;20;Male;Undergraduate;Denmark;Diya Tanaka;4,5;Twitter;No;7,3;7;In Relationship;2;5
+20/06/2024;641;22;Female;Graduate;Ireland;Raj Garcia;5,9;Instagram;Yes;6,5;6;Single;3;7
+19/03/2024;642;19;Male;Undergraduate;India;Khalid Ito;7,2;TikTok;Yes;5,7;4;Single;5;9
+11/07/2024;643;24;Female;Graduate;Switzerland;Arjun Garcia;4,6;Facebook;No;7,2;7;In Relationship;2;5
+15/11/2024;644;21;Male;Undergraduate;Turkey;Harper Chopra;6,8;Instagram;Yes;6;5;Single;4;8
+30/01/2024;645;23;Female;Graduate;USA;Minato Hussein;5,3;Twitter;Yes;6,8;6;In Relationship;3;7
+15/02/2024;646;22;Male;Graduate;Mexico;Aarav Santos;6,3;Facebook;Yes;6,2;5;Single;4;8
+07/12/2024;647;20;Female;Undergraduate;France;Benjamin Fahd;4,8;Instagram;No;7,1;7;In Relationship;2;5
+15/09/2024;648;23;Male;Graduate;Canada;Pedro Karim;5,7;TikTok;Yes;6,6;6;Single;3;7
+11/02/2024;649;21;Female;Undergraduate;UK;Minato Khaled;6,2;Twitter;Yes;6,3;5;Single;4;8
+18/04/2024;650;24;Male;Graduate;Italy;Benjamin Santos;4,7;Facebook;No;7,2;7;In Relationship;2;5
+27/10/2024;651;19;Female;Undergraduate;Russia;Camila Harris;6,8;Instagram;Yes;5,9;4;Single;5;9
+07/12/2024;652;22;Male;Graduate;China;Liam Brown;5,6;WeChat;Yes;6,7;6;In Relationship;3;7
+14/04/2024;653;20;Female;Undergraduate;Japan;Ava Garcia;4,3;Twitter;No;7,5;8;Single;2;4
+23/02/2024;654;23;Male;Graduate;Poland;Noah Davis;6,2;TikTok;Yes;6,3;5;Single;4;8
+25/04/2024;655;21;Female;Undergraduate;Finland;Sara Ito;4,4;Instagram;No;7,4;7;In Relationship;2;5
+22/08/2024;656;24;Male;Graduate;Spain;Camila Smith;6,5;Facebook;Yes;6,1;5;Single;4;8
+18/11/2024;657;19;Female;Undergraduate;Denmark;Youssef Fahd;4,6;Twitter;No;7,3;7;In Relationship;2;5
+17/01/2024;658;22;Male;Graduate;Ireland;Charlotte Jain;5,8;Instagram;Yes;6,6;6;Single;3;7
+14/06/2024;659;20;Female;Undergraduate;India;Mateo Yamamoto;7,1;TikTok;Yes;5,8;4;Single;5;9
+07/11/2024;660;23;Male;Graduate;Switzerland;Priya Hussein;4,5;Facebook;No;7,3;7;In Relationship;2;5
+11/12/2024;661;21;Female;Undergraduate;Turkey;Henry Taylor;6,7;Instagram;Yes;6;5;Single;4;8
+17/10/2024;662;24;Male;Graduate;USA;Olivia Kobayashi;5,4;Twitter;Yes;6,8;6;In Relationship;3;7
+27/07/2024;663;19;Female;Undergraduate;Mexico;Lucia Ali;6,4;TikTok;Yes;6,2;5;Single;4;8
+09/05/2024;664;22;Male;Graduate;France;Sara Taylor;4,7;Facebook;No;7,2;7;In Relationship;2;5
+12/08/2024;665;20;Female;Undergraduate;Canada;Sofia Nasser;5,6;Instagram;Yes;6,7;6;Single;3;7
+22/02/2024;666;23;Male;Graduate;UK;Maria Sato;6,3;Twitter;Yes;6,2;5;Single;4;8
+11/04/2024;667;21;Female;Undergraduate;Italy;Haruto Sharma;4,8;TikTok;No;7,1;7;In Relationship;2;5
+25/07/2024;668;24;Male;Graduate;Russia;Camila Brown;6,9;Instagram;Yes;5,9;4;Single;5;9
+28/05/2024;669;19;Female;Undergraduate;China;Valentina Costa;5,7;WeChat;Yes;6,7;6;In Relationship;3;7
+17/10/2024;670;22;Male;Graduate;Japan;Valentina Ito;4,4;Twitter;No;7,4;8;Single;2;4
+18/01/2024;671;20;Female;Undergraduate;Poland;Sophia Nasser;6,1;Facebook;Yes;6,4;5;Single;4;8
+18/12/2024;672;23;Male;Graduate;Finland;Youssef Martin;4,3;Instagram;No;7,5;7;In Relationship;2;5
+12/11/2024;673;21;Female;Undergraduate;Spain;Sofia Brown;6,4;TikTok;Yes;6,2;5;Single;4;8
+24/06/2024;674;24;Male;Graduate;Denmark;Hana Yamamoto;4,5;Twitter;No;7,3;7;In Relationship;2;5
+19/10/2024;675;19;Female;Undergraduate;Ireland;William Farouk;5,9;Instagram;Yes;6,5;6;Single;3;7
+26/02/2024;676;22;Male;Graduate;India;Evelyn Hernandez;7,2;Facebook;Yes;5,7;4;Single;5;9
+16/02/2024;677;20;Female;Undergraduate;Switzerland;Priya Miller;4,6;TikTok;No;7,2;7;In Relationship;2;5
+05/06/2024;678;23;Male;Graduate;Turkey;Camila Karim;6,8;Instagram;Yes;6;5;Single;4;8
+07/12/2024;679;21;Female;Undergraduate;USA;Mateo Ali;5,3;Twitter;Yes;6,8;6;In Relationship;3;7
+11/07/2024;680;24;Male;Graduate;Mexico;Sora Smith;6,2;Facebook;Yes;6,3;5;Single;4;8
+30/04/2024;681;19;Female;Undergraduate;France;Lucia Lopez;4,7;Instagram;No;7,2;7;In Relationship;2;5
+20/12/2024;682;22;Male;Graduate;Canada;Isabella Patel;5,8;TikTok;Yes;6,6;6;Single;3;7
+23/08/2024;683;20;Female;Undergraduate;UK;Khalid Costa;6,1;Twitter;Yes;6,4;5;Single;4;8
+18/06/2024;684;23;Male;Graduate;Italy;Samir Taylor;4,8;Facebook;No;7,1;7;In Relationship;2;5
+25/03/2024;685;21;Female;Undergraduate;Russia;Amit Nakamura;6,7;Instagram;Yes;6;4;Single;5;9
+24/08/2024;686;24;Male;Graduate;China;Elijah Davis;5,5;WeChat;Yes;6,8;6;In Relationship;3;7
+11/02/2024;687;19;Female;Undergraduate;Japan;Alexander Almeida;4,2;Twitter;No;7,5;8;Single;2;4
+05/11/2024;688;22;Male;Graduate;Poland;Ali Ito;6,3;TikTok;Yes;6,2;5;Single;4;8
+12/11/2024;689;20;Female;Undergraduate;Finland;William Kobayashi;4,4;Instagram;No;7,4;7;In Relationship;2;5
+03/06/2024;690;23;Male;Graduate;Spain;Diego Almeida;6,5;Facebook;Yes;6,1;5;Single;4;8
+22/09/2024;691;21;Female;Undergraduate;Denmark;Noah Mehta;4,6;Twitter;No;7,3;7;In Relationship;2;5
+11/05/2024;692;24;Male;Graduate;Ireland;Liam Khaled;5,9;Instagram;Yes;6,5;6;Single;3;7
+28/12/2024;693;19;Female;Undergraduate;India;Mateo Santos;7;TikTok;Yes;5,8;4;Single;5;9
+17/03/2024;694;22;Male;Graduate;Switzerland;Pedro Kobayashi;4,5;Facebook;No;7,3;7;In Relationship;2;5
+29/10/2024;695;20;Female;Undergraduate;Turkey;Vikram Silva;6,6;Instagram;Yes;6,1;5;Single;4;8
+20/01/2024;696;23;Male;Graduate;USA;Harper Aziz;5,5;Twitter;Yes;6,7;6;In Relationship;3;7
+01/11/2024;697;21;Female;Undergraduate;Mexico;Henry Martinez;6,3;TikTok;Yes;6,2;5;Single;4;8
+31/03/2024;698;24;Male;Graduate;France;Elijah Chopra;4,8;Facebook;No;7,1;7;In Relationship;2;5
+11/08/2024;699;19;Female;Undergraduate;Canada;Camila Johnson;5,7;Instagram;Yes;6,6;6;Single;3;7
+25/08/2024;700;22;Male;Graduate;UK;Priya Nasser;6,2;Twitter;Yes;6,3;5;Single;4;8
+03/03/2024;701;20;Female;Undergraduate;Italy;Lucia Santos;4,7;TikTok;No;7,2;7;In Relationship;2;5
+21/06/2024;702;23;Male;Graduate;Russia;Yuki Kumar;6,8;Instagram;Yes;5,9;4;Single;5;9
+12/02/2024;703;21;Female;Undergraduate;China;Omar Mehta;5,6;WeChat;Yes;6,7;6;In Relationship;3;7
+05/11/2024;704;24;Male;Graduate;Japan;Carlos Kumar;4,3;Twitter;No;7,5;8;Single;2;4
+19/03/2024;705;19;Female;Undergraduate;Poland;David Evans;6,2;Facebook;Yes;6,3;5;Single;4;8
