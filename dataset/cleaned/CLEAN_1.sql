@@ -1,32 +1,55 @@
-﻿/*
-Copy tiêu đề cột ( chưa có dữ liệu ) 
-*/
-select top 0 * 
-into Social_Media_Clean_1 from [Students Social Media Addiction];
-
-
+﻿
 /*
-Thêm dữ liệu đã lọc dòng trùng ( select distinct )
-định dạng kiểu dữ liệu & không có dữ liệu trống
+
+=== LAM SACH DU LIEU ===
+
+Xóa khoảng trắng thừa (TRIM)
+
+Chuẩn hóa văn bản: viết hoa chữ cái đầu (Gender, Academic_Level…)
+
+Chuẩn hóa Yes/No → dạng đồng nhất (YES/NO)
+
+Giữ nguyên định dạng số thập phân (5,2 → 5,2)
+
+Không thay đổi kiểu dữ liệu (giữ dạng TEXT)
+
+
 */
-INSERT INTO Social_Media_Clean_1
-SELECT DISTINCT
-    TRY_CAST(Student_ID AS INT) AS Student_ID,
-    TRY_CAST(Age AS INT) AS Age,
-    TRIM(CAST(Gender AS NVARCHAR(50))) AS Gender,
-    TRIM(CAST(Academic_Level AS NVARCHAR(100))) AS Academic_Level,
-    TRIM(CAST(Country AS NVARCHAR(100))) AS Country,
-    TRY_CAST(Avg_Daily_Usage_Hours AS FLOAT) AS Avg_Daily_Usage_Hours,
-    TRIM(CAST(Most_Used_Platform AS NVARCHAR(100))) AS Most_Used_Platform,
-    TRIM(CAST(Affects_Academic_Performance AS NVARCHAR(10))) AS Affects_Academic_Performance,
-    TRY_CAST(Sleep_Hours_Per_Night AS FLOAT) AS Sleep_Hours_Per_Night,
-    TRY_CAST(Mental_Health_Score AS INT) AS Mental_Health_Score,
-    TRIM(CAST(Relationship_Status AS NVARCHAR(50))) AS Relationship_Status,
-    TRY_CAST(Conflicts_Over_Social_Media AS INT) AS Conflicts_Over_Social_Media,
-    TRY_CAST(Addicted_Score AS INT) AS Addicted_Score
-FROM [Students Social Media Addiction]
-WHERE 
-    Student_ID IS NOT NULL
-    AND Age IS NOT NULL
-    AND Gender IS NOT NULL
-    AND Country IS NOT NULL;
+
+SELECT
+    LTRIM(RTRIM(Date)) AS Date,
+    LTRIM(RTRIM(Student_ID)) AS Student_ID,
+    LTRIM(RTRIM(Age)) AS Age,
+
+    UPPER(LEFT(Gender,1)) + LOWER(SUBSTRING(Gender,2,LEN(Gender))) AS Gender,
+    UPPER(LEFT(Academic_Level,1)) + LOWER(SUBSTRING(Academic_Level,2,LEN(Academic_Level))) AS Academic_Level,
+
+    LTRIM(RTRIM(Country)) AS Country,
+    LTRIM(RTRIM(Name_Students)) AS Name_Students,
+
+    CASE 
+        WHEN ISNUMERIC(LTRIM(RTRIM(Avg_Daily_Usage_Hours))) = 1 AND CAST(LTRIM(RTRIM(Avg_Daily_Usage_Hours)) AS INT) >= 10 
+        THEN CAST(CAST(LTRIM(RTRIM(Avg_Daily_Usage_Hours)) AS INT) / 10.0 AS DECIMAL(4,1))
+        ELSE CAST(LTRIM(RTRIM(Avg_Daily_Usage_Hours)) AS DECIMAL(4,1))
+    END AS Avg_Daily_Usage_Hours,
+
+    LTRIM(RTRIM(Most_Used_Platform)) AS Most_Used_Platform,
+
+    UPPER(LTRIM(RTRIM(Affects_Academic_Performance))) AS Affects_Academic_Performance,
+
+    CASE 
+        WHEN ISNUMERIC(LTRIM(RTRIM(Sleep_Hours_Per_Night))) = 1 AND CAST(LTRIM(RTRIM(Sleep_Hours_Per_Night)) AS INT) >= 10 
+        THEN CAST(CAST(LTRIM(RTRIM(Sleep_Hours_Per_Night)) AS INT) / 10.0 AS DECIMAL(4,1))
+        ELSE CAST(LTRIM(RTRIM(Sleep_Hours_Per_Night)) AS DECIMAL(4,1))
+    END AS Sleep_Hours_Per_Night,
+
+    LTRIM(RTRIM(Mental_Health_Score)) AS Mental_Health_Score,
+    LTRIM(RTRIM(Relationship_Status)) AS Relationship_Status,
+    LTRIM(RTRIM(Conflicts_Over_Social_Media)) AS Conflicts_Over_Social_Media,
+    LTRIM(RTRIM(Addicted_Score)) AS Addicted_Score
+
+INTO Social_Media_Clean_1 
+FROM dbo.[Students Social Media Addiction];
+
+select * from Social_Media_Clean_1;
+
